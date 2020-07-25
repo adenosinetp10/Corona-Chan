@@ -1,5 +1,6 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler
 import requests
+import os
 
 default_url = 'https://api.covid19api.com/'
 summary_url = 'https://api.covid19api.com/summary'
