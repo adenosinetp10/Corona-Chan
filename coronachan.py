@@ -3014,7 +3014,8 @@ def about(update, context):
     update.message.reply_text("Corona Chan will get you Corona Statistics from all around the world.\nDeveloper : @iLEWDloli\nDeveloped in Python using python-telegram-bot\nMade possible due to Coronavirus COVID19 API")
 
 def main():
-    updater = Updater("1090484422:AAFkOtC1jfTrl-LQM7Vglzp8A-qiTh1_o20", use_context=True)
+    bot_token = os.environ.get("BOT_TOKEN","")
+    updater = Updater(bot_token, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
     dp.add_handler(CommandHandler('global',global1))
