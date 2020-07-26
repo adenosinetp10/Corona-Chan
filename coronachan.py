@@ -1,4 +1,5 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler
+from telegram import InlineKeyboardButton,InlineKeyboardMarkup
 import requests
 import os
 
@@ -3012,7 +3013,9 @@ def help(update, context):
     update.message.reply_text("Hi! , I\'m Corona Chan!\nSo what I basically do is, I give you\nCorona Statistics.\nTo know Global Stats do /global\nTo know the stats of a specific country, do /<country code>\nWondering where to find country codes?\nDon\'t Worry! We got you covered .\nSimply do /countrycodes\nA message with all country codes will pop up.\nUse those country codes to gt the statistics of a country .\nI hope you guys will enjoy this Bot.\nArigatou!") 
 
 def about(update, context):
-    update.message.reply_text("Corona Chan will get you Corona Statistics from all around the world.\nDeveloper : @iLEWDloli\nGitHub  : https://github.com/adenosinetp10\nDeveloped in Python using python-telegram-bot\nMade possible due to Coronavirus COVID19 API\nIf you liked this Bot and want to support me\n Then donate here-->https://paypal.me/adenosinetp10")
+    keyboard = [[InlineKeyboardButton('GitHub',url ="https://github.com/adenosinetp10"),InlineKeyboardButton('Paypal',url='https://paypal.me/adenosinetp10')]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    update.message.reply_text("Corona Chan will get you Corona Statistics from all around the world.\nDeveloper : @iLEWDloli\nDeveloped in Python using python-telegram-bot\nMade possible due to Coronavirus COVID19 API\nIf you liked this Bot and want to support me\n Then donate me.",reply_markup=reply_markup)
 
 def main():
     bot_token = os.environ.get("BOT_TOKEN","")
