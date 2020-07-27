@@ -857,7 +857,7 @@ def CI(update, context):
     total_deaths_CI=(summary["Countries"][45]["TotalDeaths"])
     new_recovered_CI=(summary["Countries"][45]["NewRecovered"])
     total_recovered_CI=(summary["Countries"][45]["TotalRecovered"])
-    update.message.reply_text('<b>Corona Statistics:</b><pre>Côte d'Ivoire</pre>'
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Côte d\'Ivoire</pre>'
    '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CI)+'</pre>'
    '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CI)+'</pre>'
    '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CI)+'</pre>'
