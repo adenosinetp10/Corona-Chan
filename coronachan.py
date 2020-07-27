@@ -227,14 +227,13 @@ def AF(update, context):
     total_deaths_AF=(summary["Countries"][0]["TotalDeaths"])
     new_recovered_AF=(summary["Countries"][0]["NewRecovered"])
     total_recovered_AF=(summary["Countries"][0]["TotalRecovered"])
-    update.message.reply_text('<b>Corona Statistics:</b><pre> Afghanistan</pre>'
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Afghanistan</pre>'
    '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AF)+'</pre>'
-   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AF)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AF)+'</pre>'       
    '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AF)+'</pre>'
    '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AF)+'</pre>'
    '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AF)+'</pre>'
    '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AF)+'</pre>',parse_mode='HTML')
-
 def AL(update, context):
     new_confirmed_AL=(summary["Countries"][1]["NewConfirmed"])
     total_confirmed_AL=(summary["Countries"][1]["TotalConfirmed"])
@@ -242,14 +241,13 @@ def AL(update, context):
     total_deaths_AL=(summary["Countries"][1]["TotalDeaths"])
     new_recovered_AL=(summary["Countries"][1]["NewRecovered"])
     total_recovered_AL=(summary["Countries"][1]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Albania'
-   '\nNew Confirmed : '+str(new_confirmed_AL)+
-   '\nTotal Confirmed : '+str(total_confirmed_AL)+
-   '\nNew Deaths : '+str(new_deaths_AL)+
-   '\nTotal Deaths : '+str(total_deaths_AL)+
-   '\nNew Recovered : '+str(new_recovered_AL)+
-   '\nTotal Recovered : '+str(total_recovered_AL))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Albania</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AL)+'</pre>',parse_mode='HTML')
 def DZ(update, context):
     new_confirmed_DZ=(summary["Countries"][2]["NewConfirmed"])
     total_confirmed_DZ=(summary["Countries"][2]["TotalConfirmed"])
@@ -257,14 +255,13 @@ def DZ(update, context):
     total_deaths_DZ=(summary["Countries"][2]["TotalDeaths"])
     new_recovered_DZ=(summary["Countries"][2]["NewRecovered"])
     total_recovered_DZ=(summary["Countries"][2]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Algeria'
-   '\nNew Confirmed : '+str(new_confirmed_DZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_DZ)+
-   '\nNew Deaths : '+str(new_deaths_DZ)+
-   '\nTotal Deaths : '+str(total_deaths_DZ)+
-   '\nNew Recovered : '+str(new_recovered_DZ)+
-   '\nTotal Recovered : '+str(total_recovered_DZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Algeria</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_DZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_DZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_DZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_DZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_DZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_DZ)+'</pre>',parse_mode='HTML')
 def AD(update, context):
     new_confirmed_AD=(summary["Countries"][3]["NewConfirmed"])
     total_confirmed_AD=(summary["Countries"][3]["TotalConfirmed"])
@@ -272,14 +269,13 @@ def AD(update, context):
     total_deaths_AD=(summary["Countries"][3]["TotalDeaths"])
     new_recovered_AD=(summary["Countries"][3]["NewRecovered"])
     total_recovered_AD=(summary["Countries"][3]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Andorra'
-   '\nNew Confirmed : '+str(new_confirmed_AD)+
-   '\nTotal Confirmed : '+str(total_confirmed_AD)+
-   '\nNew Deaths : '+str(new_deaths_AD)+
-   '\nTotal Deaths : '+str(total_deaths_AD)+
-   '\nNew Recovered : '+str(new_recovered_AD)+
-   '\nTotal Recovered : '+str(total_recovered_AD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Andorra</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AD)+'</pre>',parse_mode='HTML')
 def AO(update, context):
     new_confirmed_AO=(summary["Countries"][4]["NewConfirmed"])
     total_confirmed_AO=(summary["Countries"][4]["TotalConfirmed"])
@@ -287,14 +283,13 @@ def AO(update, context):
     total_deaths_AO=(summary["Countries"][4]["TotalDeaths"])
     new_recovered_AO=(summary["Countries"][4]["NewRecovered"])
     total_recovered_AO=(summary["Countries"][4]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Angola'
-   '\nNew Confirmed : '+str(new_confirmed_AO)+
-   '\nTotal Confirmed : '+str(total_confirmed_AO)+
-   '\nNew Deaths : '+str(new_deaths_AO)+
-   '\nTotal Deaths : '+str(total_deaths_AO)+
-   '\nNew Recovered : '+str(new_recovered_AO)+
-   '\nTotal Recovered : '+str(total_recovered_AO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Angola</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AO)+'</pre>',parse_mode='HTML')
 def AG(update, context):
     new_confirmed_AG=(summary["Countries"][5]["NewConfirmed"])
     total_confirmed_AG=(summary["Countries"][5]["TotalConfirmed"])
@@ -302,14 +297,13 @@ def AG(update, context):
     total_deaths_AG=(summary["Countries"][5]["TotalDeaths"])
     new_recovered_AG=(summary["Countries"][5]["NewRecovered"])
     total_recovered_AG=(summary["Countries"][5]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Antigua and Barbuda'
-   '\nNew Confirmed : '+str(new_confirmed_AG)+
-   '\nTotal Confirmed : '+str(total_confirmed_AG)+
-   '\nNew Deaths : '+str(new_deaths_AG)+
-   '\nTotal Deaths : '+str(total_deaths_AG)+
-   '\nNew Recovered : '+str(new_recovered_AG)+
-   '\nTotal Recovered : '+str(total_recovered_AG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Antigua and Barbuda</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AG)+'</pre>',parse_mode='HTML')
 def AR(update, context):
     new_confirmed_AR=(summary["Countries"][6]["NewConfirmed"])
     total_confirmed_AR=(summary["Countries"][6]["TotalConfirmed"])
@@ -317,14 +311,13 @@ def AR(update, context):
     total_deaths_AR=(summary["Countries"][6]["TotalDeaths"])
     new_recovered_AR=(summary["Countries"][6]["NewRecovered"])
     total_recovered_AR=(summary["Countries"][6]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Argentina'
-   '\nNew Confirmed : '+str(new_confirmed_AR)+
-   '\nTotal Confirmed : '+str(total_confirmed_AR)+
-   '\nNew Deaths : '+str(new_deaths_AR)+
-   '\nTotal Deaths : '+str(total_deaths_AR)+
-   '\nNew Recovered : '+str(new_recovered_AR)+
-   '\nTotal Recovered : '+str(total_recovered_AR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Argentina</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AR)+'</pre>',parse_mode='HTML')
 def AM(update, context):
     new_confirmed_AM=(summary["Countries"][7]["NewConfirmed"])
     total_confirmed_AM=(summary["Countries"][7]["TotalConfirmed"])
@@ -332,14 +325,13 @@ def AM(update, context):
     total_deaths_AM=(summary["Countries"][7]["TotalDeaths"])
     new_recovered_AM=(summary["Countries"][7]["NewRecovered"])
     total_recovered_AM=(summary["Countries"][7]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Armenia'
-   '\nNew Confirmed : '+str(new_confirmed_AM)+
-   '\nTotal Confirmed : '+str(total_confirmed_AM)+
-   '\nNew Deaths : '+str(new_deaths_AM)+
-   '\nTotal Deaths : '+str(total_deaths_AM)+
-   '\nNew Recovered : '+str(new_recovered_AM)+
-   '\nTotal Recovered : '+str(total_recovered_AM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Armenia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AM)+'</pre>',parse_mode='HTML')
 def AU(update, context):
     new_confirmed_AU=(summary["Countries"][8]["NewConfirmed"])
     total_confirmed_AU=(summary["Countries"][8]["TotalConfirmed"])
@@ -347,14 +339,13 @@ def AU(update, context):
     total_deaths_AU=(summary["Countries"][8]["TotalDeaths"])
     new_recovered_AU=(summary["Countries"][8]["NewRecovered"])
     total_recovered_AU=(summary["Countries"][8]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Australia'
-   '\nNew Confirmed : '+str(new_confirmed_AU)+
-   '\nTotal Confirmed : '+str(total_confirmed_AU)+
-   '\nNew Deaths : '+str(new_deaths_AU)+
-   '\nTotal Deaths : '+str(total_deaths_AU)+
-   '\nNew Recovered : '+str(new_recovered_AU)+
-   '\nTotal Recovered : '+str(total_recovered_AU))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Australia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AU)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AU)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AU)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AU)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AU)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AU)+'</pre>',parse_mode='HTML')
 def AT(update, context):
     new_confirmed_AT=(summary["Countries"][9]["NewConfirmed"])
     total_confirmed_AT=(summary["Countries"][9]["TotalConfirmed"])
@@ -362,14 +353,13 @@ def AT(update, context):
     total_deaths_AT=(summary["Countries"][9]["TotalDeaths"])
     new_recovered_AT=(summary["Countries"][9]["NewRecovered"])
     total_recovered_AT=(summary["Countries"][9]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Austria'
-   '\nNew Confirmed : '+str(new_confirmed_AT)+
-   '\nTotal Confirmed : '+str(total_confirmed_AT)+
-   '\nNew Deaths : '+str(new_deaths_AT)+
-   '\nTotal Deaths : '+str(total_deaths_AT)+
-   '\nNew Recovered : '+str(new_recovered_AT)+
-   '\nTotal Recovered : '+str(total_recovered_AT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Austria</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AT)+'</pre>',parse_mode='HTML')
 def AZ(update, context):
     new_confirmed_AZ=(summary["Countries"][10]["NewConfirmed"])
     total_confirmed_AZ=(summary["Countries"][10]["TotalConfirmed"])
@@ -377,14 +367,13 @@ def AZ(update, context):
     total_deaths_AZ=(summary["Countries"][10]["TotalDeaths"])
     new_recovered_AZ=(summary["Countries"][10]["NewRecovered"])
     total_recovered_AZ=(summary["Countries"][10]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Azerbaijan'
-   '\nNew Confirmed : '+str(new_confirmed_AZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_AZ)+
-   '\nNew Deaths : '+str(new_deaths_AZ)+
-   '\nTotal Deaths : '+str(total_deaths_AZ)+
-   '\nNew Recovered : '+str(new_recovered_AZ)+
-   '\nTotal Recovered : '+str(total_recovered_AZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Azerbaijan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AZ)+'</pre>',parse_mode='HTML')
 def BS(update, context):
     new_confirmed_BS=(summary["Countries"][11]["NewConfirmed"])
     total_confirmed_BS=(summary["Countries"][11]["TotalConfirmed"])
@@ -392,14 +381,13 @@ def BS(update, context):
     total_deaths_BS=(summary["Countries"][11]["TotalDeaths"])
     new_recovered_BS=(summary["Countries"][11]["NewRecovered"])
     total_recovered_BS=(summary["Countries"][11]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bahamas'
-   '\nNew Confirmed : '+str(new_confirmed_BS)+
-   '\nTotal Confirmed : '+str(total_confirmed_BS)+
-   '\nNew Deaths : '+str(new_deaths_BS)+
-   '\nTotal Deaths : '+str(total_deaths_BS)+
-   '\nNew Recovered : '+str(new_recovered_BS)+
-   '\nTotal Recovered : '+str(total_recovered_BS))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bahamas</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BS)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BS)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BS)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BS)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BS)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BS)+'</pre>',parse_mode='HTML')
 def BH(update, context):
     new_confirmed_BH=(summary["Countries"][12]["NewConfirmed"])
     total_confirmed_BH=(summary["Countries"][12]["TotalConfirmed"])
@@ -407,14 +395,13 @@ def BH(update, context):
     total_deaths_BH=(summary["Countries"][12]["TotalDeaths"])
     new_recovered_BH=(summary["Countries"][12]["NewRecovered"])
     total_recovered_BH=(summary["Countries"][12]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bahrain'
-   '\nNew Confirmed : '+str(new_confirmed_BH)+
-   '\nTotal Confirmed : '+str(total_confirmed_BH)+
-   '\nNew Deaths : '+str(new_deaths_BH)+
-   '\nTotal Deaths : '+str(total_deaths_BH)+
-   '\nNew Recovered : '+str(new_recovered_BH)+
-   '\nTotal Recovered : '+str(total_recovered_BH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bahrain</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BH)+'</pre>',parse_mode='HTML')
 def BD(update, context):
     new_confirmed_BD=(summary["Countries"][13]["NewConfirmed"])
     total_confirmed_BD=(summary["Countries"][13]["TotalConfirmed"])
@@ -422,14 +409,13 @@ def BD(update, context):
     total_deaths_BD=(summary["Countries"][13]["TotalDeaths"])
     new_recovered_BD=(summary["Countries"][13]["NewRecovered"])
     total_recovered_BD=(summary["Countries"][13]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bangladesh'
-   '\nNew Confirmed : '+str(new_confirmed_BD)+
-   '\nTotal Confirmed : '+str(total_confirmed_BD)+
-   '\nNew Deaths : '+str(new_deaths_BD)+
-   '\nTotal Deaths : '+str(total_deaths_BD)+
-   '\nNew Recovered : '+str(new_recovered_BD)+
-   '\nTotal Recovered : '+str(total_recovered_BD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bangladesh</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BD)+'</pre>',parse_mode='HTML')
 def BB(update, context):
     new_confirmed_BB=(summary["Countries"][14]["NewConfirmed"])
     total_confirmed_BB=(summary["Countries"][14]["TotalConfirmed"])
@@ -437,14 +423,13 @@ def BB(update, context):
     total_deaths_BB=(summary["Countries"][14]["TotalDeaths"])
     new_recovered_BB=(summary["Countries"][14]["NewRecovered"])
     total_recovered_BB=(summary["Countries"][14]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Barbados'
-   '\nNew Confirmed : '+str(new_confirmed_BB)+
-   '\nTotal Confirmed : '+str(total_confirmed_BB)+
-   '\nNew Deaths : '+str(new_deaths_BB)+
-   '\nTotal Deaths : '+str(total_deaths_BB)+
-   '\nNew Recovered : '+str(new_recovered_BB)+
-   '\nTotal Recovered : '+str(total_recovered_BB))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Barbados</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BB)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BB)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BB)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BB)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BB)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BB)+'</pre>',parse_mode='HTML')
 def BY(update, context):
     new_confirmed_BY=(summary["Countries"][15]["NewConfirmed"])
     total_confirmed_BY=(summary["Countries"][15]["TotalConfirmed"])
@@ -452,14 +437,13 @@ def BY(update, context):
     total_deaths_BY=(summary["Countries"][15]["TotalDeaths"])
     new_recovered_BY=(summary["Countries"][15]["NewRecovered"])
     total_recovered_BY=(summary["Countries"][15]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Belarus'
-   '\nNew Confirmed : '+str(new_confirmed_BY)+
-   '\nTotal Confirmed : '+str(total_confirmed_BY)+
-   '\nNew Deaths : '+str(new_deaths_BY)+
-   '\nTotal Deaths : '+str(total_deaths_BY)+
-   '\nNew Recovered : '+str(new_recovered_BY)+
-   '\nTotal Recovered : '+str(total_recovered_BY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Belarus</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BY)+'</pre>',parse_mode='HTML')
 def BE(update, context):
     new_confirmed_BE=(summary["Countries"][16]["NewConfirmed"])
     total_confirmed_BE=(summary["Countries"][16]["TotalConfirmed"])
@@ -467,14 +451,13 @@ def BE(update, context):
     total_deaths_BE=(summary["Countries"][16]["TotalDeaths"])
     new_recovered_BE=(summary["Countries"][16]["NewRecovered"])
     total_recovered_BE=(summary["Countries"][16]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Belgium'
-   '\nNew Confirmed : '+str(new_confirmed_BE)+
-   '\nTotal Confirmed : '+str(total_confirmed_BE)+
-   '\nNew Deaths : '+str(new_deaths_BE)+
-   '\nTotal Deaths : '+str(total_deaths_BE)+
-   '\nNew Recovered : '+str(new_recovered_BE)+
-   '\nTotal Recovered : '+str(total_recovered_BE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Belgium</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BE)+'</pre>',parse_mode='HTML')
 def BZ(update, context):
     new_confirmed_BZ=(summary["Countries"][17]["NewConfirmed"])
     total_confirmed_BZ=(summary["Countries"][17]["TotalConfirmed"])
@@ -482,14 +465,13 @@ def BZ(update, context):
     total_deaths_BZ=(summary["Countries"][17]["TotalDeaths"])
     new_recovered_BZ=(summary["Countries"][17]["NewRecovered"])
     total_recovered_BZ=(summary["Countries"][17]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Belize'
-   '\nNew Confirmed : '+str(new_confirmed_BZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_BZ)+
-   '\nNew Deaths : '+str(new_deaths_BZ)+
-   '\nTotal Deaths : '+str(total_deaths_BZ)+
-   '\nNew Recovered : '+str(new_recovered_BZ)+
-   '\nTotal Recovered : '+str(total_recovered_BZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Belize</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BZ)+'</pre>',parse_mode='HTML')
 def BJ(update, context):
     new_confirmed_BJ=(summary["Countries"][18]["NewConfirmed"])
     total_confirmed_BJ=(summary["Countries"][18]["TotalConfirmed"])
@@ -497,14 +479,13 @@ def BJ(update, context):
     total_deaths_BJ=(summary["Countries"][18]["TotalDeaths"])
     new_recovered_BJ=(summary["Countries"][18]["NewRecovered"])
     total_recovered_BJ=(summary["Countries"][18]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Benin'
-   '\nNew Confirmed : '+str(new_confirmed_BJ)+
-   '\nTotal Confirmed : '+str(total_confirmed_BJ)+
-   '\nNew Deaths : '+str(new_deaths_BJ)+
-   '\nTotal Deaths : '+str(total_deaths_BJ)+
-   '\nNew Recovered : '+str(new_recovered_BJ)+
-   '\nTotal Recovered : '+str(total_recovered_BJ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Benin</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BJ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BJ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BJ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BJ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BJ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BJ)+'</pre>',parse_mode='HTML')
 def BT(update, context):
     new_confirmed_BT=(summary["Countries"][19]["NewConfirmed"])
     total_confirmed_BT=(summary["Countries"][19]["TotalConfirmed"])
@@ -512,14 +493,13 @@ def BT(update, context):
     total_deaths_BT=(summary["Countries"][19]["TotalDeaths"])
     new_recovered_BT=(summary["Countries"][19]["NewRecovered"])
     total_recovered_BT=(summary["Countries"][19]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bhutan'
-   '\nNew Confirmed : '+str(new_confirmed_BT)+
-   '\nTotal Confirmed : '+str(total_confirmed_BT)+
-   '\nNew Deaths : '+str(new_deaths_BT)+
-   '\nTotal Deaths : '+str(total_deaths_BT)+
-   '\nNew Recovered : '+str(new_recovered_BT)+
-   '\nTotal Recovered : '+str(total_recovered_BT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bhutan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BT)+'</pre>',parse_mode='HTML')
 def BO(update, context):
     new_confirmed_BO=(summary["Countries"][20]["NewConfirmed"])
     total_confirmed_BO=(summary["Countries"][20]["TotalConfirmed"])
@@ -527,14 +507,13 @@ def BO(update, context):
     total_deaths_BO=(summary["Countries"][20]["TotalDeaths"])
     new_recovered_BO=(summary["Countries"][20]["NewRecovered"])
     total_recovered_BO=(summary["Countries"][20]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bolivia'
-   '\nNew Confirmed : '+str(new_confirmed_BO)+
-   '\nTotal Confirmed : '+str(total_confirmed_BO)+
-   '\nNew Deaths : '+str(new_deaths_BO)+
-   '\nTotal Deaths : '+str(total_deaths_BO)+
-   '\nNew Recovered : '+str(new_recovered_BO)+
-   '\nTotal Recovered : '+str(total_recovered_BO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bolivia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BO)+'</pre>',parse_mode='HTML')
 def BA(update, context):
     new_confirmed_BA=(summary["Countries"][21]["NewConfirmed"])
     total_confirmed_BA=(summary["Countries"][21]["TotalConfirmed"])
@@ -542,14 +521,13 @@ def BA(update, context):
     total_deaths_BA=(summary["Countries"][21]["TotalDeaths"])
     new_recovered_BA=(summary["Countries"][21]["NewRecovered"])
     total_recovered_BA=(summary["Countries"][21]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bosnia and Herzegovina'
-   '\nNew Confirmed : '+str(new_confirmed_BA)+
-   '\nTotal Confirmed : '+str(total_confirmed_BA)+
-   '\nNew Deaths : '+str(new_deaths_BA)+
-   '\nTotal Deaths : '+str(total_deaths_BA)+
-   '\nNew Recovered : '+str(new_recovered_BA)+
-   '\nTotal Recovered : '+str(total_recovered_BA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bosnia and Herzegovina</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BA)+'</pre>',parse_mode='HTML')
 def BW(update, context):
     new_confirmed_BW=(summary["Countries"][22]["NewConfirmed"])
     total_confirmed_BW=(summary["Countries"][22]["TotalConfirmed"])
@@ -557,14 +535,13 @@ def BW(update, context):
     total_deaths_BW=(summary["Countries"][22]["TotalDeaths"])
     new_recovered_BW=(summary["Countries"][22]["NewRecovered"])
     total_recovered_BW=(summary["Countries"][22]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Botswana'
-   '\nNew Confirmed : '+str(new_confirmed_BW)+
-   '\nTotal Confirmed : '+str(total_confirmed_BW)+
-   '\nNew Deaths : '+str(new_deaths_BW)+
-   '\nTotal Deaths : '+str(total_deaths_BW)+
-   '\nNew Recovered : '+str(new_recovered_BW)+
-   '\nTotal Recovered : '+str(total_recovered_BW))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Botswana</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BW)+'</pre>',parse_mode='HTML')
 def BR(update, context):
     new_confirmed_BR=(summary["Countries"][23]["NewConfirmed"])
     total_confirmed_BR=(summary["Countries"][23]["TotalConfirmed"])
@@ -572,14 +549,13 @@ def BR(update, context):
     total_deaths_BR=(summary["Countries"][23]["TotalDeaths"])
     new_recovered_BR=(summary["Countries"][23]["NewRecovered"])
     total_recovered_BR=(summary["Countries"][23]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Brazil'
-   '\nNew Confirmed : '+str(new_confirmed_BR)+
-   '\nTotal Confirmed : '+str(total_confirmed_BR)+
-   '\nNew Deaths : '+str(new_deaths_BR)+
-   '\nTotal Deaths : '+str(total_deaths_BR)+
-   '\nNew Recovered : '+str(new_recovered_BR)+
-   '\nTotal Recovered : '+str(total_recovered_BR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Brazil</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BR)+'</pre>',parse_mode='HTML')
 def BN(update, context):
     new_confirmed_BN=(summary["Countries"][24]["NewConfirmed"])
     total_confirmed_BN=(summary["Countries"][24]["TotalConfirmed"])
@@ -587,14 +563,13 @@ def BN(update, context):
     total_deaths_BN=(summary["Countries"][24]["TotalDeaths"])
     new_recovered_BN=(summary["Countries"][24]["NewRecovered"])
     total_recovered_BN=(summary["Countries"][24]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Brunei Darussalam'
-   '\nNew Confirmed : '+str(new_confirmed_BN)+
-   '\nTotal Confirmed : '+str(total_confirmed_BN)+
-   '\nNew Deaths : '+str(new_deaths_BN)+
-   '\nTotal Deaths : '+str(total_deaths_BN)+
-   '\nNew Recovered : '+str(new_recovered_BN)+
-   '\nTotal Recovered : '+str(total_recovered_BN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Brunei Darussalam</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BN)+'</pre>',parse_mode='HTML')
 def BG(update, context):
     new_confirmed_BG=(summary["Countries"][25]["NewConfirmed"])
     total_confirmed_BG=(summary["Countries"][25]["TotalConfirmed"])
@@ -602,14 +577,13 @@ def BG(update, context):
     total_deaths_BG=(summary["Countries"][25]["TotalDeaths"])
     new_recovered_BG=(summary["Countries"][25]["NewRecovered"])
     total_recovered_BG=(summary["Countries"][25]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Bulgaria'
-   '\nNew Confirmed : '+str(new_confirmed_BG)+
-   '\nTotal Confirmed : '+str(total_confirmed_BG)+
-   '\nNew Deaths : '+str(new_deaths_BG)+
-   '\nTotal Deaths : '+str(total_deaths_BG)+
-   '\nNew Recovered : '+str(new_recovered_BG)+
-   '\nTotal Recovered : '+str(total_recovered_BG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Bulgaria</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BG)+'</pre>',parse_mode='HTML')
 def BF(update, context):
     new_confirmed_BF=(summary["Countries"][26]["NewConfirmed"])
     total_confirmed_BF=(summary["Countries"][26]["TotalConfirmed"])
@@ -617,14 +591,13 @@ def BF(update, context):
     total_deaths_BF=(summary["Countries"][26]["TotalDeaths"])
     new_recovered_BF=(summary["Countries"][26]["NewRecovered"])
     total_recovered_BF=(summary["Countries"][26]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Burkina Faso'
-   '\nNew Confirmed : '+str(new_confirmed_BF)+
-   '\nTotal Confirmed : '+str(total_confirmed_BF)+
-   '\nNew Deaths : '+str(new_deaths_BF)+
-   '\nTotal Deaths : '+str(total_deaths_BF)+
-   '\nNew Recovered : '+str(new_recovered_BF)+
-   '\nTotal Recovered : '+str(total_recovered_BF))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Burkina Faso</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BF)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BF)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BF)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BF)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BF)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BF)+'</pre>',parse_mode='HTML')
 def BI(update, context):
     new_confirmed_BI=(summary["Countries"][27]["NewConfirmed"])
     total_confirmed_BI=(summary["Countries"][27]["TotalConfirmed"])
@@ -632,14 +605,13 @@ def BI(update, context):
     total_deaths_BI=(summary["Countries"][27]["TotalDeaths"])
     new_recovered_BI=(summary["Countries"][27]["NewRecovered"])
     total_recovered_BI=(summary["Countries"][27]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Burundi'
-   '\nNew Confirmed : '+str(new_confirmed_BI)+
-   '\nTotal Confirmed : '+str(total_confirmed_BI)+
-   '\nNew Deaths : '+str(new_deaths_BI)+
-   '\nTotal Deaths : '+str(total_deaths_BI)+
-   '\nNew Recovered : '+str(new_recovered_BI)+
-   '\nTotal Recovered : '+str(total_recovered_BI))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Burundi</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_BI)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_BI)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_BI)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_BI)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_BI)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_BI)+'</pre>',parse_mode='HTML')
 def KH(update, context):
     new_confirmed_KH=(summary["Countries"][28]["NewConfirmed"])
     total_confirmed_KH=(summary["Countries"][28]["TotalConfirmed"])
@@ -647,14 +619,13 @@ def KH(update, context):
     total_deaths_KH=(summary["Countries"][28]["TotalDeaths"])
     new_recovered_KH=(summary["Countries"][28]["NewRecovered"])
     total_recovered_KH=(summary["Countries"][28]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Cambodia'
-   '\nNew Confirmed : '+str(new_confirmed_KH)+
-   '\nTotal Confirmed : '+str(total_confirmed_KH)+
-   '\nNew Deaths : '+str(new_deaths_KH)+
-   '\nTotal Deaths : '+str(total_deaths_KH)+
-   '\nNew Recovered : '+str(new_recovered_KH)+
-   '\nTotal Recovered : '+str(total_recovered_KH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Cambodia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KH)+'</pre>',parse_mode='HTML')
 def CM(update, context):
     new_confirmed_CM=(summary["Countries"][29]["NewConfirmed"])
     total_confirmed_CM=(summary["Countries"][29]["TotalConfirmed"])
@@ -662,14 +633,13 @@ def CM(update, context):
     total_deaths_CM=(summary["Countries"][29]["TotalDeaths"])
     new_recovered_CM=(summary["Countries"][29]["NewRecovered"])
     total_recovered_CM=(summary["Countries"][29]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Cameroon'
-   '\nNew Confirmed : '+str(new_confirmed_CM)+
-   '\nTotal Confirmed : '+str(total_confirmed_CM)+
-   '\nNew Deaths : '+str(new_deaths_CM)+
-   '\nTotal Deaths : '+str(total_deaths_CM)+
-   '\nNew Recovered : '+str(new_recovered_CM)+
-   '\nTotal Recovered : '+str(total_recovered_CM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Cameroon</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CM)+'</pre>',parse_mode='HTML')
 def CA(update, context):
     new_confirmed_CA=(summary["Countries"][30]["NewConfirmed"])
     total_confirmed_CA=(summary["Countries"][30]["TotalConfirmed"])
@@ -677,14 +647,13 @@ def CA(update, context):
     total_deaths_CA=(summary["Countries"][30]["TotalDeaths"])
     new_recovered_CA=(summary["Countries"][30]["NewRecovered"])
     total_recovered_CA=(summary["Countries"][30]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Canada'
-   '\nNew Confirmed : '+str(new_confirmed_CA)+
-   '\nTotal Confirmed : '+str(total_confirmed_CA)+
-   '\nNew Deaths : '+str(new_deaths_CA)+
-   '\nTotal Deaths : '+str(total_deaths_CA)+
-   '\nNew Recovered : '+str(new_recovered_CA)+
-   '\nTotal Recovered : '+str(total_recovered_CA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Canada</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CA)+'</pre>',parse_mode='HTML')
 def CV(update, context):
     new_confirmed_CV=(summary["Countries"][31]["NewConfirmed"])
     total_confirmed_CV=(summary["Countries"][31]["TotalConfirmed"])
@@ -692,14 +661,13 @@ def CV(update, context):
     total_deaths_CV=(summary["Countries"][31]["TotalDeaths"])
     new_recovered_CV=(summary["Countries"][31]["NewRecovered"])
     total_recovered_CV=(summary["Countries"][31]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Cape Verde'
-   '\nNew Confirmed : '+str(new_confirmed_CV)+
-   '\nTotal Confirmed : '+str(total_confirmed_CV)+
-   '\nNew Deaths : '+str(new_deaths_CV)+
-   '\nTotal Deaths : '+str(total_deaths_CV)+
-   '\nNew Recovered : '+str(new_recovered_CV)+
-   '\nTotal Recovered : '+str(total_recovered_CV))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Cape Verde</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CV)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CV)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CV)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CV)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CV)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CV)+'</pre>',parse_mode='HTML')
 def CF(update, context):
     new_confirmed_CF=(summary["Countries"][32]["NewConfirmed"])
     total_confirmed_CF=(summary["Countries"][32]["TotalConfirmed"])
@@ -707,14 +675,13 @@ def CF(update, context):
     total_deaths_CF=(summary["Countries"][32]["TotalDeaths"])
     new_recovered_CF=(summary["Countries"][32]["NewRecovered"])
     total_recovered_CF=(summary["Countries"][32]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Central African Republic'
-   '\nNew Confirmed : '+str(new_confirmed_CF)+
-   '\nTotal Confirmed : '+str(total_confirmed_CF)+
-   '\nNew Deaths : '+str(new_deaths_CF)+
-   '\nTotal Deaths : '+str(total_deaths_CF)+
-   '\nNew Recovered : '+str(new_recovered_CF)+
-   '\nTotal Recovered : '+str(total_recovered_CF))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Central African Republic</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CF)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CF)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CF)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CF)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CF)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CF)+'</pre>',parse_mode='HTML')
 def TD(update, context):
     new_confirmed_TD=(summary["Countries"][33]["NewConfirmed"])
     total_confirmed_TD=(summary["Countries"][33]["TotalConfirmed"])
@@ -722,14 +689,13 @@ def TD(update, context):
     total_deaths_TD=(summary["Countries"][33]["TotalDeaths"])
     new_recovered_TD=(summary["Countries"][33]["NewRecovered"])
     total_recovered_TD=(summary["Countries"][33]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Chad'
-   '\nNew Confirmed : '+str(new_confirmed_TD)+
-   '\nTotal Confirmed : '+str(total_confirmed_TD)+
-   '\nNew Deaths : '+str(new_deaths_TD)+
-   '\nTotal Deaths : '+str(total_deaths_TD)+
-   '\nNew Recovered : '+str(new_recovered_TD)+
-   '\nTotal Recovered : '+str(total_recovered_TD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Chad</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TD)+'</pre>',parse_mode='HTML')
 def CL(update, context):
     new_confirmed_CL=(summary["Countries"][34]["NewConfirmed"])
     total_confirmed_CL=(summary["Countries"][34]["TotalConfirmed"])
@@ -737,14 +703,13 @@ def CL(update, context):
     total_deaths_CL=(summary["Countries"][34]["TotalDeaths"])
     new_recovered_CL=(summary["Countries"][34]["NewRecovered"])
     total_recovered_CL=(summary["Countries"][34]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Chile'
-   '\nNew Confirmed : '+str(new_confirmed_CL)+
-   '\nTotal Confirmed : '+str(total_confirmed_CL)+
-   '\nNew Deaths : '+str(new_deaths_CL)+
-   '\nTotal Deaths : '+str(total_deaths_CL)+
-   '\nNew Recovered : '+str(new_recovered_CL)+
-   '\nTotal Recovered : '+str(total_recovered_CL))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Chile</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CL)+'</pre>',parse_mode='HTML')
 def CN(update, context):
     new_confirmed_CN=(summary["Countries"][35]["NewConfirmed"])
     total_confirmed_CN=(summary["Countries"][35]["TotalConfirmed"])
@@ -752,14 +717,13 @@ def CN(update, context):
     total_deaths_CN=(summary["Countries"][35]["TotalDeaths"])
     new_recovered_CN=(summary["Countries"][35]["NewRecovered"])
     total_recovered_CN=(summary["Countries"][35]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': China'
-   '\nNew Confirmed : '+str(new_confirmed_CN)+
-   '\nTotal Confirmed : '+str(total_confirmed_CN)+
-   '\nNew Deaths : '+str(new_deaths_CN)+
-   '\nTotal Deaths : '+str(total_deaths_CN)+
-   '\nNew Recovered : '+str(new_recovered_CN)+
-   '\nTotal Recovered : '+str(total_recovered_CN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>China</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CN)+'</pre>',parse_mode='HTML')
 def CO(update, context):
     new_confirmed_CO=(summary["Countries"][36]["NewConfirmed"])
     total_confirmed_CO=(summary["Countries"][36]["TotalConfirmed"])
@@ -767,14 +731,13 @@ def CO(update, context):
     total_deaths_CO=(summary["Countries"][36]["TotalDeaths"])
     new_recovered_CO=(summary["Countries"][36]["NewRecovered"])
     total_recovered_CO=(summary["Countries"][36]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Colombia'
-   '\nNew Confirmed : '+str(new_confirmed_CO)+
-   '\nTotal Confirmed : '+str(total_confirmed_CO)+
-   '\nNew Deaths : '+str(new_deaths_CO)+
-   '\nTotal Deaths : '+str(total_deaths_CO)+
-   '\nNew Recovered : '+str(new_recovered_CO)+
-   '\nTotal Recovered : '+str(total_recovered_CO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Colombia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CO)+'</pre>',parse_mode='HTML')
 def KM(update, context):
     new_confirmed_KM=(summary["Countries"][37]["NewConfirmed"])
     total_confirmed_KM=(summary["Countries"][37]["TotalConfirmed"])
@@ -782,14 +745,13 @@ def KM(update, context):
     total_deaths_KM=(summary["Countries"][37]["TotalDeaths"])
     new_recovered_KM=(summary["Countries"][37]["NewRecovered"])
     total_recovered_KM=(summary["Countries"][37]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Comoros'
-   '\nNew Confirmed : '+str(new_confirmed_KM)+
-   '\nTotal Confirmed : '+str(total_confirmed_KM)+
-   '\nNew Deaths : '+str(new_deaths_KM)+
-   '\nTotal Deaths : '+str(total_deaths_KM)+
-   '\nNew Recovered : '+str(new_recovered_KM)+
-   '\nTotal Recovered : '+str(total_recovered_KM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Comoros</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KM)+'</pre>',parse_mode='HTML')
 def CG(update, context):
     new_confirmed_CG=(summary["Countries"][38]["NewConfirmed"])
     total_confirmed_CG=(summary["Countries"][38]["TotalConfirmed"])
@@ -797,14 +759,13 @@ def CG(update, context):
     total_deaths_CG=(summary["Countries"][38]["TotalDeaths"])
     new_recovered_CG=(summary["Countries"][38]["NewRecovered"])
     total_recovered_CG=(summary["Countries"][38]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Congo (Brazzaville)'
-   '\nNew Confirmed : '+str(new_confirmed_CG)+
-   '\nTotal Confirmed : '+str(total_confirmed_CG)+
-   '\nNew Deaths : '+str(new_deaths_CG)+
-   '\nTotal Deaths : '+str(total_deaths_CG)+
-   '\nNew Recovered : '+str(new_recovered_CG)+
-   '\nTotal Recovered : '+str(total_recovered_CG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Congo (Brazzaville)</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CG)+'</pre>',parse_mode='HTML')
 def CD(update, context):
     new_confirmed_CD=(summary["Countries"][39]["NewConfirmed"])
     total_confirmed_CD=(summary["Countries"][39]["TotalConfirmed"])
@@ -812,14 +773,13 @@ def CD(update, context):
     total_deaths_CD=(summary["Countries"][39]["TotalDeaths"])
     new_recovered_CD=(summary["Countries"][39]["NewRecovered"])
     total_recovered_CD=(summary["Countries"][39]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Congo (Kinshasa)'
-   '\nNew Confirmed : '+str(new_confirmed_CD)+
-   '\nTotal Confirmed : '+str(total_confirmed_CD)+
-   '\nNew Deaths : '+str(new_deaths_CD)+
-   '\nTotal Deaths : '+str(total_deaths_CD)+
-   '\nNew Recovered : '+str(new_recovered_CD)+
-   '\nTotal Recovered : '+str(total_recovered_CD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Congo (Kinshasa)</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CD)+'</pre>',parse_mode='HTML')
 def CR(update, context):
     new_confirmed_CR=(summary["Countries"][40]["NewConfirmed"])
     total_confirmed_CR=(summary["Countries"][40]["TotalConfirmed"])
@@ -827,14 +787,13 @@ def CR(update, context):
     total_deaths_CR=(summary["Countries"][40]["TotalDeaths"])
     new_recovered_CR=(summary["Countries"][40]["NewRecovered"])
     total_recovered_CR=(summary["Countries"][40]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Costa Rica'
-   '\nNew Confirmed : '+str(new_confirmed_CR)+
-   '\nTotal Confirmed : '+str(total_confirmed_CR)+
-   '\nNew Deaths : '+str(new_deaths_CR)+
-   '\nTotal Deaths : '+str(total_deaths_CR)+
-   '\nNew Recovered : '+str(new_recovered_CR)+
-   '\nTotal Recovered : '+str(total_recovered_CR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Costa Rica</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CR)+'</pre>',parse_mode='HTML')
 def HR(update, context):
     new_confirmed_HR=(summary["Countries"][41]["NewConfirmed"])
     total_confirmed_HR=(summary["Countries"][41]["TotalConfirmed"])
@@ -842,14 +801,13 @@ def HR(update, context):
     total_deaths_HR=(summary["Countries"][41]["TotalDeaths"])
     new_recovered_HR=(summary["Countries"][41]["NewRecovered"])
     total_recovered_HR=(summary["Countries"][41]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Croatia'
-   '\nNew Confirmed : '+str(new_confirmed_HR)+
-   '\nTotal Confirmed : '+str(total_confirmed_HR)+
-   '\nNew Deaths : '+str(new_deaths_HR)+
-   '\nTotal Deaths : '+str(total_deaths_HR)+
-   '\nNew Recovered : '+str(new_recovered_HR)+
-   '\nTotal Recovered : '+str(total_recovered_HR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Croatia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_HR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_HR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_HR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_HR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_HR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_HR)+'</pre>',parse_mode='HTML')
 def CU(update, context):
     new_confirmed_CU=(summary["Countries"][42]["NewConfirmed"])
     total_confirmed_CU=(summary["Countries"][42]["TotalConfirmed"])
@@ -857,14 +815,13 @@ def CU(update, context):
     total_deaths_CU=(summary["Countries"][42]["TotalDeaths"])
     new_recovered_CU=(summary["Countries"][42]["NewRecovered"])
     total_recovered_CU=(summary["Countries"][42]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Cuba'
-   '\nNew Confirmed : '+str(new_confirmed_CU)+
-   '\nTotal Confirmed : '+str(total_confirmed_CU)+
-   '\nNew Deaths : '+str(new_deaths_CU)+
-   '\nTotal Deaths : '+str(total_deaths_CU)+
-   '\nNew Recovered : '+str(new_recovered_CU)+
-   '\nTotal Recovered : '+str(total_recovered_CU))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Cuba</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CU)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CU)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CU)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CU)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CU)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CU)+'</pre>',parse_mode='HTML')
 def CY(update, context):
     new_confirmed_CY=(summary["Countries"][43]["NewConfirmed"])
     total_confirmed_CY=(summary["Countries"][43]["TotalConfirmed"])
@@ -872,14 +829,13 @@ def CY(update, context):
     total_deaths_CY=(summary["Countries"][43]["TotalDeaths"])
     new_recovered_CY=(summary["Countries"][43]["NewRecovered"])
     total_recovered_CY=(summary["Countries"][43]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Cyprus'
-   '\nNew Confirmed : '+str(new_confirmed_CY)+
-   '\nTotal Confirmed : '+str(total_confirmed_CY)+
-   '\nNew Deaths : '+str(new_deaths_CY)+
-   '\nTotal Deaths : '+str(total_deaths_CY)+
-   '\nNew Recovered : '+str(new_recovered_CY)+
-   '\nTotal Recovered : '+str(total_recovered_CY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Cyprus</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CY)+'</pre>',parse_mode='HTML')
 def CZ(update, context):
     new_confirmed_CZ=(summary["Countries"][44]["NewConfirmed"])
     total_confirmed_CZ=(summary["Countries"][44]["TotalConfirmed"])
@@ -887,14 +843,13 @@ def CZ(update, context):
     total_deaths_CZ=(summary["Countries"][44]["TotalDeaths"])
     new_recovered_CZ=(summary["Countries"][44]["NewRecovered"])
     total_recovered_CZ=(summary["Countries"][44]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Czech Republic'
-   '\nNew Confirmed : '+str(new_confirmed_CZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_CZ)+
-   '\nNew Deaths : '+str(new_deaths_CZ)+
-   '\nTotal Deaths : '+str(total_deaths_CZ)+
-   '\nNew Recovered : '+str(new_recovered_CZ)+
-   '\nTotal Recovered : '+str(total_recovered_CZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Czech Republic</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CZ)+'</pre>',parse_mode='HTML')
 def CI(update, context):
     new_confirmed_CI=(summary["Countries"][45]["NewConfirmed"])
     total_confirmed_CI=(summary["Countries"][45]["TotalConfirmed"])
@@ -902,14 +857,13 @@ def CI(update, context):
     total_deaths_CI=(summary["Countries"][45]["TotalDeaths"])
     new_recovered_CI=(summary["Countries"][45]["NewRecovered"])
     total_recovered_CI=(summary["Countries"][45]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Côte d\'Ivoire'
-   '\nNew Confirmed : '+str(new_confirmed_CI)+
-   '\nTotal Confirmed : '+str(total_confirmed_CI)+
-   '\nNew Deaths : '+str(new_deaths_CI)+
-   '\nTotal Deaths : '+str(total_deaths_CI)+
-   '\nNew Recovered : '+str(new_recovered_CI)+
-   '\nTotal Recovered : '+str(total_recovered_CI))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Côte d'Ivoire</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CI)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CI)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CI)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CI)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CI)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CI)+'</pre>',parse_mode='HTML')
 def DK(update, context):
     new_confirmed_DK=(summary["Countries"][46]["NewConfirmed"])
     total_confirmed_DK=(summary["Countries"][46]["TotalConfirmed"])
@@ -917,14 +871,13 @@ def DK(update, context):
     total_deaths_DK=(summary["Countries"][46]["TotalDeaths"])
     new_recovered_DK=(summary["Countries"][46]["NewRecovered"])
     total_recovered_DK=(summary["Countries"][46]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Denmark'
-   '\nNew Confirmed : '+str(new_confirmed_DK)+
-   '\nTotal Confirmed : '+str(total_confirmed_DK)+
-   '\nNew Deaths : '+str(new_deaths_DK)+
-   '\nTotal Deaths : '+str(total_deaths_DK)+
-   '\nNew Recovered : '+str(new_recovered_DK)+
-   '\nTotal Recovered : '+str(total_recovered_DK))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Denmark</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_DK)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_DK)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_DK)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_DK)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_DK)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_DK)+'</pre>',parse_mode='HTML')
 def DJ(update, context):
     new_confirmed_DJ=(summary["Countries"][47]["NewConfirmed"])
     total_confirmed_DJ=(summary["Countries"][47]["TotalConfirmed"])
@@ -932,14 +885,13 @@ def DJ(update, context):
     total_deaths_DJ=(summary["Countries"][47]["TotalDeaths"])
     new_recovered_DJ=(summary["Countries"][47]["NewRecovered"])
     total_recovered_DJ=(summary["Countries"][47]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Djibouti'
-   '\nNew Confirmed : '+str(new_confirmed_DJ)+
-   '\nTotal Confirmed : '+str(total_confirmed_DJ)+
-   '\nNew Deaths : '+str(new_deaths_DJ)+
-   '\nTotal Deaths : '+str(total_deaths_DJ)+
-   '\nNew Recovered : '+str(new_recovered_DJ)+
-   '\nTotal Recovered : '+str(total_recovered_DJ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Djibouti</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_DJ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_DJ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_DJ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_DJ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_DJ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_DJ)+'</pre>',parse_mode='HTML')
 def DM(update, context):
     new_confirmed_DM=(summary["Countries"][48]["NewConfirmed"])
     total_confirmed_DM=(summary["Countries"][48]["TotalConfirmed"])
@@ -947,14 +899,13 @@ def DM(update, context):
     total_deaths_DM=(summary["Countries"][48]["TotalDeaths"])
     new_recovered_DM=(summary["Countries"][48]["NewRecovered"])
     total_recovered_DM=(summary["Countries"][48]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Dominica'
-   '\nNew Confirmed : '+str(new_confirmed_DM)+
-   '\nTotal Confirmed : '+str(total_confirmed_DM)+
-   '\nNew Deaths : '+str(new_deaths_DM)+
-   '\nTotal Deaths : '+str(total_deaths_DM)+
-   '\nNew Recovered : '+str(new_recovered_DM)+
-   '\nTotal Recovered : '+str(total_recovered_DM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Dominica</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_DM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_DM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_DM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_DM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_DM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_DM)+'</pre>',parse_mode='HTML')
 def DO(update, context):
     new_confirmed_DO=(summary["Countries"][49]["NewConfirmed"])
     total_confirmed_DO=(summary["Countries"][49]["TotalConfirmed"])
@@ -962,29 +913,29 @@ def DO(update, context):
     total_deaths_DO=(summary["Countries"][49]["TotalDeaths"])
     new_recovered_DO=(summary["Countries"][49]["NewRecovered"])
     total_recovered_DO=(summary["Countries"][49]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Dominican Republic'
-   '\nNew Confirmed : '+str(new_confirmed_DO)+
-   '\nTotal Confirmed : '+str(total_confirmed_DO)+
-   '\nNew Deaths : '+str(new_deaths_DO)+
-   '\nTotal Deaths : '+str(total_deaths_DO)+
-   '\nNew Recovered : '+str(new_recovered_DO)+
-   '\nTotal Recovered : '+str(total_recovered_DO)) 
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Dominican Republic</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_DO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_DO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_DO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_DO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_DO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_DO)+'</pre>',parse_mode='HTML')
+
 
 def EC(update, context):
-    new_confirmed_EC=(summary["Countries"][50]["NewConfirmed"])    
-    total_confirmed_EC=(summary["Countries"][50]["TotalConfirmed"])
+    new_confirmed_EC=(summary["Countries"][50]["NewConfirmed"])
+    total_confirmed_EC=(summary["Countries"][50]["TotalConfirmed"])        
     new_deaths_EC=(summary["Countries"][50]["NewDeaths"])
-    total_deaths_EC=(summary["Countries"][50]["TotalDeaths"])      
-    new_recovered_EC=(summary["Countries"][50]["NewRecovered"])    
-    total_recovered_EC=(summary["Countries"][50]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Ecuador'
-   '\nNew Confirmed : '+str(new_confirmed_EC)+
-   '\nTotal Confirmed : '+str(total_confirmed_EC)+
-   '\nNew Deaths : '+str(new_deaths_EC)+
-   '\nTotal Deaths : '+str(total_deaths_EC)+
-   '\nNew Recovered : '+str(new_recovered_EC)+
-   '\nTotal Recovered : '+str(total_recovered_EC))
-
+    total_deaths_EC=(summary["Countries"][50]["TotalDeaths"])
+    new_recovered_EC=(summary["Countries"][50]["NewRecovered"])
+    total_recovered_EC=(summary["Countries"][50]["TotalRecovered"])        
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Ecuador</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_EC)+'</pre>'       
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_EC)+'</pre>'   
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_EC)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_EC)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_EC)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_EC)+'</pre>',parse_mode='HTML')
 def EG(update, context):
     new_confirmed_EG=(summary["Countries"][51]["NewConfirmed"])
     total_confirmed_EG=(summary["Countries"][51]["TotalConfirmed"])
@@ -992,14 +943,13 @@ def EG(update, context):
     total_deaths_EG=(summary["Countries"][51]["TotalDeaths"])
     new_recovered_EG=(summary["Countries"][51]["NewRecovered"])
     total_recovered_EG=(summary["Countries"][51]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Egypt'
-   '\nNew Confirmed : '+str(new_confirmed_EG)+
-   '\nTotal Confirmed : '+str(total_confirmed_EG)+
-   '\nNew Deaths : '+str(new_deaths_EG)+
-   '\nTotal Deaths : '+str(total_deaths_EG)+
-   '\nNew Recovered : '+str(new_recovered_EG)+
-   '\nTotal Recovered : '+str(total_recovered_EG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Egypt</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_EG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_EG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_EG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_EG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_EG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_EG)+'</pre>',parse_mode='HTML')
 def SV(update, context):
     new_confirmed_SV=(summary["Countries"][52]["NewConfirmed"])
     total_confirmed_SV=(summary["Countries"][52]["TotalConfirmed"])
@@ -1007,14 +957,13 @@ def SV(update, context):
     total_deaths_SV=(summary["Countries"][52]["TotalDeaths"])
     new_recovered_SV=(summary["Countries"][52]["NewRecovered"])
     total_recovered_SV=(summary["Countries"][52]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': El Salvador'
-   '\nNew Confirmed : '+str(new_confirmed_SV)+
-   '\nTotal Confirmed : '+str(total_confirmed_SV)+
-   '\nNew Deaths : '+str(new_deaths_SV)+
-   '\nTotal Deaths : '+str(total_deaths_SV)+
-   '\nNew Recovered : '+str(new_recovered_SV)+
-   '\nTotal Recovered : '+str(total_recovered_SV))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>El Salvador</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SV)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SV)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SV)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SV)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SV)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SV)+'</pre>',parse_mode='HTML')
 def GQ(update, context):
     new_confirmed_GQ=(summary["Countries"][53]["NewConfirmed"])
     total_confirmed_GQ=(summary["Countries"][53]["TotalConfirmed"])
@@ -1022,14 +971,13 @@ def GQ(update, context):
     total_deaths_GQ=(summary["Countries"][53]["TotalDeaths"])
     new_recovered_GQ=(summary["Countries"][53]["NewRecovered"])
     total_recovered_GQ=(summary["Countries"][53]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Equatorial Guinea'
-   '\nNew Confirmed : '+str(new_confirmed_GQ)+
-   '\nTotal Confirmed : '+str(total_confirmed_GQ)+
-   '\nNew Deaths : '+str(new_deaths_GQ)+
-   '\nTotal Deaths : '+str(total_deaths_GQ)+
-   '\nNew Recovered : '+str(new_recovered_GQ)+
-   '\nTotal Recovered : '+str(total_recovered_GQ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Equatorial Guinea</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GQ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GQ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GQ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GQ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GQ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GQ)+'</pre>',parse_mode='HTML')
 def ER(update, context):
     new_confirmed_ER=(summary["Countries"][54]["NewConfirmed"])
     total_confirmed_ER=(summary["Countries"][54]["TotalConfirmed"])
@@ -1037,14 +985,13 @@ def ER(update, context):
     total_deaths_ER=(summary["Countries"][54]["TotalDeaths"])
     new_recovered_ER=(summary["Countries"][54]["NewRecovered"])
     total_recovered_ER=(summary["Countries"][54]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Eritrea'
-   '\nNew Confirmed : '+str(new_confirmed_ER)+
-   '\nTotal Confirmed : '+str(total_confirmed_ER)+
-   '\nNew Deaths : '+str(new_deaths_ER)+
-   '\nTotal Deaths : '+str(total_deaths_ER)+
-   '\nNew Recovered : '+str(new_recovered_ER)+
-   '\nTotal Recovered : '+str(total_recovered_ER))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Eritrea</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ER)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ER)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ER)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ER)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ER)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ER)+'</pre>',parse_mode='HTML')
 def EE(update, context):
     new_confirmed_EE=(summary["Countries"][55]["NewConfirmed"])
     total_confirmed_EE=(summary["Countries"][55]["TotalConfirmed"])
@@ -1052,14 +999,13 @@ def EE(update, context):
     total_deaths_EE=(summary["Countries"][55]["TotalDeaths"])
     new_recovered_EE=(summary["Countries"][55]["NewRecovered"])
     total_recovered_EE=(summary["Countries"][55]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Estonia'
-   '\nNew Confirmed : '+str(new_confirmed_EE)+
-   '\nTotal Confirmed : '+str(total_confirmed_EE)+
-   '\nNew Deaths : '+str(new_deaths_EE)+
-   '\nTotal Deaths : '+str(total_deaths_EE)+
-   '\nNew Recovered : '+str(new_recovered_EE)+
-   '\nTotal Recovered : '+str(total_recovered_EE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Estonia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_EE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_EE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_EE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_EE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_EE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_EE)+'</pre>',parse_mode='HTML')
 def ET(update, context):
     new_confirmed_ET=(summary["Countries"][56]["NewConfirmed"])
     total_confirmed_ET=(summary["Countries"][56]["TotalConfirmed"])
@@ -1067,14 +1013,13 @@ def ET(update, context):
     total_deaths_ET=(summary["Countries"][56]["TotalDeaths"])
     new_recovered_ET=(summary["Countries"][56]["NewRecovered"])
     total_recovered_ET=(summary["Countries"][56]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Ethiopia'
-   '\nNew Confirmed : '+str(new_confirmed_ET)+
-   '\nTotal Confirmed : '+str(total_confirmed_ET)+
-   '\nNew Deaths : '+str(new_deaths_ET)+
-   '\nTotal Deaths : '+str(total_deaths_ET)+
-   '\nNew Recovered : '+str(new_recovered_ET)+
-   '\nTotal Recovered : '+str(total_recovered_ET))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Ethiopia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ET)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ET)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ET)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ET)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ET)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ET)+'</pre>',parse_mode='HTML')
 def FJ(update, context):
     new_confirmed_FJ=(summary["Countries"][57]["NewConfirmed"])
     total_confirmed_FJ=(summary["Countries"][57]["TotalConfirmed"])
@@ -1082,14 +1027,13 @@ def FJ(update, context):
     total_deaths_FJ=(summary["Countries"][57]["TotalDeaths"])
     new_recovered_FJ=(summary["Countries"][57]["NewRecovered"])
     total_recovered_FJ=(summary["Countries"][57]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Fiji'
-   '\nNew Confirmed : '+str(new_confirmed_FJ)+
-   '\nTotal Confirmed : '+str(total_confirmed_FJ)+
-   '\nNew Deaths : '+str(new_deaths_FJ)+
-   '\nTotal Deaths : '+str(total_deaths_FJ)+
-   '\nNew Recovered : '+str(new_recovered_FJ)+
-   '\nTotal Recovered : '+str(total_recovered_FJ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Fiji</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_FJ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_FJ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_FJ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_FJ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_FJ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_FJ)+'</pre>',parse_mode='HTML')
 def FI(update, context):
     new_confirmed_FI=(summary["Countries"][58]["NewConfirmed"])
     total_confirmed_FI=(summary["Countries"][58]["TotalConfirmed"])
@@ -1097,14 +1041,13 @@ def FI(update, context):
     total_deaths_FI=(summary["Countries"][58]["TotalDeaths"])
     new_recovered_FI=(summary["Countries"][58]["NewRecovered"])
     total_recovered_FI=(summary["Countries"][58]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Finland'
-   '\nNew Confirmed : '+str(new_confirmed_FI)+
-   '\nTotal Confirmed : '+str(total_confirmed_FI)+
-   '\nNew Deaths : '+str(new_deaths_FI)+
-   '\nTotal Deaths : '+str(total_deaths_FI)+
-   '\nNew Recovered : '+str(new_recovered_FI)+
-   '\nTotal Recovered : '+str(total_recovered_FI))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Finland</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_FI)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_FI)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_FI)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_FI)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_FI)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_FI)+'</pre>',parse_mode='HTML')
 def FR(update, context):
     new_confirmed_FR=(summary["Countries"][59]["NewConfirmed"])
     total_confirmed_FR=(summary["Countries"][59]["TotalConfirmed"])
@@ -1112,14 +1055,13 @@ def FR(update, context):
     total_deaths_FR=(summary["Countries"][59]["TotalDeaths"])
     new_recovered_FR=(summary["Countries"][59]["NewRecovered"])
     total_recovered_FR=(summary["Countries"][59]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': France'
-   '\nNew Confirmed : '+str(new_confirmed_FR)+
-   '\nTotal Confirmed : '+str(total_confirmed_FR)+
-   '\nNew Deaths : '+str(new_deaths_FR)+
-   '\nTotal Deaths : '+str(total_deaths_FR)+
-   '\nNew Recovered : '+str(new_recovered_FR)+
-   '\nTotal Recovered : '+str(total_recovered_FR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>France</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_FR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_FR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_FR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_FR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_FR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_FR)+'</pre>',parse_mode='HTML')
 def GA(update, context):
     new_confirmed_GA=(summary["Countries"][60]["NewConfirmed"])
     total_confirmed_GA=(summary["Countries"][60]["TotalConfirmed"])
@@ -1127,14 +1069,13 @@ def GA(update, context):
     total_deaths_GA=(summary["Countries"][60]["TotalDeaths"])
     new_recovered_GA=(summary["Countries"][60]["NewRecovered"])
     total_recovered_GA=(summary["Countries"][60]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Gabon'
-   '\nNew Confirmed : '+str(new_confirmed_GA)+
-   '\nTotal Confirmed : '+str(total_confirmed_GA)+
-   '\nNew Deaths : '+str(new_deaths_GA)+
-   '\nTotal Deaths : '+str(total_deaths_GA)+
-   '\nNew Recovered : '+str(new_recovered_GA)+
-   '\nTotal Recovered : '+str(total_recovered_GA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Gabon</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GA)+'</pre>',parse_mode='HTML')
 def GM(update, context):
     new_confirmed_GM=(summary["Countries"][61]["NewConfirmed"])
     total_confirmed_GM=(summary["Countries"][61]["TotalConfirmed"])
@@ -1142,14 +1083,13 @@ def GM(update, context):
     total_deaths_GM=(summary["Countries"][61]["TotalDeaths"])
     new_recovered_GM=(summary["Countries"][61]["NewRecovered"])
     total_recovered_GM=(summary["Countries"][61]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Gambia'
-   '\nNew Confirmed : '+str(new_confirmed_GM)+
-   '\nTotal Confirmed : '+str(total_confirmed_GM)+
-   '\nNew Deaths : '+str(new_deaths_GM)+
-   '\nTotal Deaths : '+str(total_deaths_GM)+
-   '\nNew Recovered : '+str(new_recovered_GM)+
-   '\nTotal Recovered : '+str(total_recovered_GM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Gambia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GM)+'</pre>',parse_mode='HTML')
 def GE(update, context):
     new_confirmed_GE=(summary["Countries"][62]["NewConfirmed"])
     total_confirmed_GE=(summary["Countries"][62]["TotalConfirmed"])
@@ -1157,14 +1097,13 @@ def GE(update, context):
     total_deaths_GE=(summary["Countries"][62]["TotalDeaths"])
     new_recovered_GE=(summary["Countries"][62]["NewRecovered"])
     total_recovered_GE=(summary["Countries"][62]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Georgia'
-   '\nNew Confirmed : '+str(new_confirmed_GE)+
-   '\nTotal Confirmed : '+str(total_confirmed_GE)+
-   '\nNew Deaths : '+str(new_deaths_GE)+
-   '\nTotal Deaths : '+str(total_deaths_GE)+
-   '\nNew Recovered : '+str(new_recovered_GE)+
-   '\nTotal Recovered : '+str(total_recovered_GE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Georgia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GE)+'</pre>',parse_mode='HTML')
 def DE(update, context):
     new_confirmed_DE=(summary["Countries"][63]["NewConfirmed"])
     total_confirmed_DE=(summary["Countries"][63]["TotalConfirmed"])
@@ -1172,14 +1111,13 @@ def DE(update, context):
     total_deaths_DE=(summary["Countries"][63]["TotalDeaths"])
     new_recovered_DE=(summary["Countries"][63]["NewRecovered"])
     total_recovered_DE=(summary["Countries"][63]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Germany'
-   '\nNew Confirmed : '+str(new_confirmed_DE)+
-   '\nTotal Confirmed : '+str(total_confirmed_DE)+
-   '\nNew Deaths : '+str(new_deaths_DE)+
-   '\nTotal Deaths : '+str(total_deaths_DE)+
-   '\nNew Recovered : '+str(new_recovered_DE)+
-   '\nTotal Recovered : '+str(total_recovered_DE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Germany</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_DE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_DE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_DE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_DE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_DE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_DE)+'</pre>',parse_mode='HTML')
 def GH(update, context):
     new_confirmed_GH=(summary["Countries"][64]["NewConfirmed"])
     total_confirmed_GH=(summary["Countries"][64]["TotalConfirmed"])
@@ -1187,14 +1125,13 @@ def GH(update, context):
     total_deaths_GH=(summary["Countries"][64]["TotalDeaths"])
     new_recovered_GH=(summary["Countries"][64]["NewRecovered"])
     total_recovered_GH=(summary["Countries"][64]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Ghana'
-   '\nNew Confirmed : '+str(new_confirmed_GH)+
-   '\nTotal Confirmed : '+str(total_confirmed_GH)+
-   '\nNew Deaths : '+str(new_deaths_GH)+
-   '\nTotal Deaths : '+str(total_deaths_GH)+
-   '\nNew Recovered : '+str(new_recovered_GH)+
-   '\nTotal Recovered : '+str(total_recovered_GH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Ghana</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GH)+'</pre>',parse_mode='HTML')
 def GR(update, context):
     new_confirmed_GR=(summary["Countries"][65]["NewConfirmed"])
     total_confirmed_GR=(summary["Countries"][65]["TotalConfirmed"])
@@ -1202,14 +1139,13 @@ def GR(update, context):
     total_deaths_GR=(summary["Countries"][65]["TotalDeaths"])
     new_recovered_GR=(summary["Countries"][65]["NewRecovered"])
     total_recovered_GR=(summary["Countries"][65]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Greece'
-   '\nNew Confirmed : '+str(new_confirmed_GR)+
-   '\nTotal Confirmed : '+str(total_confirmed_GR)+
-   '\nNew Deaths : '+str(new_deaths_GR)+
-   '\nTotal Deaths : '+str(total_deaths_GR)+
-   '\nNew Recovered : '+str(new_recovered_GR)+
-   '\nTotal Recovered : '+str(total_recovered_GR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Greece</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GR)+'</pre>',parse_mode='HTML')
 def GD(update, context):
     new_confirmed_GD=(summary["Countries"][66]["NewConfirmed"])
     total_confirmed_GD=(summary["Countries"][66]["TotalConfirmed"])
@@ -1217,14 +1153,13 @@ def GD(update, context):
     total_deaths_GD=(summary["Countries"][66]["TotalDeaths"])
     new_recovered_GD=(summary["Countries"][66]["NewRecovered"])
     total_recovered_GD=(summary["Countries"][66]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Grenada'
-   '\nNew Confirmed : '+str(new_confirmed_GD)+
-   '\nTotal Confirmed : '+str(total_confirmed_GD)+
-   '\nNew Deaths : '+str(new_deaths_GD)+
-   '\nTotal Deaths : '+str(total_deaths_GD)+
-   '\nNew Recovered : '+str(new_recovered_GD)+
-   '\nTotal Recovered : '+str(total_recovered_GD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Grenada</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GD)+'</pre>',parse_mode='HTML')
 def GT(update, context):
     new_confirmed_GT=(summary["Countries"][67]["NewConfirmed"])
     total_confirmed_GT=(summary["Countries"][67]["TotalConfirmed"])
@@ -1232,14 +1167,13 @@ def GT(update, context):
     total_deaths_GT=(summary["Countries"][67]["TotalDeaths"])
     new_recovered_GT=(summary["Countries"][67]["NewRecovered"])
     total_recovered_GT=(summary["Countries"][67]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Guatemala'
-   '\nNew Confirmed : '+str(new_confirmed_GT)+
-   '\nTotal Confirmed : '+str(total_confirmed_GT)+
-   '\nNew Deaths : '+str(new_deaths_GT)+
-   '\nTotal Deaths : '+str(total_deaths_GT)+
-   '\nNew Recovered : '+str(new_recovered_GT)+
-   '\nTotal Recovered : '+str(total_recovered_GT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Guatemala</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GT)+'</pre>',parse_mode='HTML')
 def GN(update, context):
     new_confirmed_GN=(summary["Countries"][68]["NewConfirmed"])
     total_confirmed_GN=(summary["Countries"][68]["TotalConfirmed"])
@@ -1247,14 +1181,13 @@ def GN(update, context):
     total_deaths_GN=(summary["Countries"][68]["TotalDeaths"])
     new_recovered_GN=(summary["Countries"][68]["NewRecovered"])
     total_recovered_GN=(summary["Countries"][68]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Guinea'
-   '\nNew Confirmed : '+str(new_confirmed_GN)+
-   '\nTotal Confirmed : '+str(total_confirmed_GN)+
-   '\nNew Deaths : '+str(new_deaths_GN)+
-   '\nTotal Deaths : '+str(total_deaths_GN)+
-   '\nNew Recovered : '+str(new_recovered_GN)+
-   '\nTotal Recovered : '+str(total_recovered_GN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Guinea</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GN)+'</pre>',parse_mode='HTML')
 def GW(update, context):
     new_confirmed_GW=(summary["Countries"][69]["NewConfirmed"])
     total_confirmed_GW=(summary["Countries"][69]["TotalConfirmed"])
@@ -1262,14 +1195,13 @@ def GW(update, context):
     total_deaths_GW=(summary["Countries"][69]["TotalDeaths"])
     new_recovered_GW=(summary["Countries"][69]["NewRecovered"])
     total_recovered_GW=(summary["Countries"][69]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Guinea-Bissau'
-   '\nNew Confirmed : '+str(new_confirmed_GW)+
-   '\nTotal Confirmed : '+str(total_confirmed_GW)+
-   '\nNew Deaths : '+str(new_deaths_GW)+
-   '\nTotal Deaths : '+str(total_deaths_GW)+
-   '\nNew Recovered : '+str(new_recovered_GW)+
-   '\nTotal Recovered : '+str(total_recovered_GW))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Guinea-Bissau</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GW)+'</pre>',parse_mode='HTML')
 def GY(update, context):
     new_confirmed_GY=(summary["Countries"][70]["NewConfirmed"])
     total_confirmed_GY=(summary["Countries"][70]["TotalConfirmed"])
@@ -1277,14 +1209,13 @@ def GY(update, context):
     total_deaths_GY=(summary["Countries"][70]["TotalDeaths"])
     new_recovered_GY=(summary["Countries"][70]["NewRecovered"])
     total_recovered_GY=(summary["Countries"][70]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Guyana'
-   '\nNew Confirmed : '+str(new_confirmed_GY)+
-   '\nTotal Confirmed : '+str(total_confirmed_GY)+
-   '\nNew Deaths : '+str(new_deaths_GY)+
-   '\nTotal Deaths : '+str(total_deaths_GY)+
-   '\nNew Recovered : '+str(new_recovered_GY)+
-   '\nTotal Recovered : '+str(total_recovered_GY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Guyana</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GY)+'</pre>',parse_mode='HTML')
 def HT(update, context):
     new_confirmed_HT=(summary["Countries"][71]["NewConfirmed"])
     total_confirmed_HT=(summary["Countries"][71]["TotalConfirmed"])
@@ -1292,14 +1223,13 @@ def HT(update, context):
     total_deaths_HT=(summary["Countries"][71]["TotalDeaths"])
     new_recovered_HT=(summary["Countries"][71]["NewRecovered"])
     total_recovered_HT=(summary["Countries"][71]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Haiti'
-   '\nNew Confirmed : '+str(new_confirmed_HT)+
-   '\nTotal Confirmed : '+str(total_confirmed_HT)+
-   '\nNew Deaths : '+str(new_deaths_HT)+
-   '\nTotal Deaths : '+str(total_deaths_HT)+
-   '\nNew Recovered : '+str(new_recovered_HT)+
-   '\nTotal Recovered : '+str(total_recovered_HT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Haiti</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_HT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_HT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_HT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_HT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_HT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_HT)+'</pre>',parse_mode='HTML')
 def VA(update, context):
     new_confirmed_VA=(summary["Countries"][72]["NewConfirmed"])
     total_confirmed_VA=(summary["Countries"][72]["TotalConfirmed"])
@@ -1307,14 +1237,13 @@ def VA(update, context):
     total_deaths_VA=(summary["Countries"][72]["TotalDeaths"])
     new_recovered_VA=(summary["Countries"][72]["NewRecovered"])
     total_recovered_VA=(summary["Countries"][72]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Holy See (Vatican City State)'
-   '\nNew Confirmed : '+str(new_confirmed_VA)+
-   '\nTotal Confirmed : '+str(total_confirmed_VA)+
-   '\nNew Deaths : '+str(new_deaths_VA)+
-   '\nTotal Deaths : '+str(total_deaths_VA)+
-   '\nNew Recovered : '+str(new_recovered_VA)+
-   '\nTotal Recovered : '+str(total_recovered_VA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Holy See (Vatican City State)</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_VA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_VA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_VA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_VA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_VA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_VA)+'</pre>',parse_mode='HTML')
 def HN(update, context):
     new_confirmed_HN=(summary["Countries"][73]["NewConfirmed"])
     total_confirmed_HN=(summary["Countries"][73]["TotalConfirmed"])
@@ -1322,14 +1251,13 @@ def HN(update, context):
     total_deaths_HN=(summary["Countries"][73]["TotalDeaths"])
     new_recovered_HN=(summary["Countries"][73]["NewRecovered"])
     total_recovered_HN=(summary["Countries"][73]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Honduras'
-   '\nNew Confirmed : '+str(new_confirmed_HN)+
-   '\nTotal Confirmed : '+str(total_confirmed_HN)+
-   '\nNew Deaths : '+str(new_deaths_HN)+
-   '\nTotal Deaths : '+str(total_deaths_HN)+
-   '\nNew Recovered : '+str(new_recovered_HN)+
-   '\nTotal Recovered : '+str(total_recovered_HN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Honduras</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_HN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_HN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_HN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_HN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_HN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_HN)+'</pre>',parse_mode='HTML')
 def HU(update, context):
     new_confirmed_HU=(summary["Countries"][74]["NewConfirmed"])
     total_confirmed_HU=(summary["Countries"][74]["TotalConfirmed"])
@@ -1337,14 +1265,13 @@ def HU(update, context):
     total_deaths_HU=(summary["Countries"][74]["TotalDeaths"])
     new_recovered_HU=(summary["Countries"][74]["NewRecovered"])
     total_recovered_HU=(summary["Countries"][74]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Hungary'
-   '\nNew Confirmed : '+str(new_confirmed_HU)+
-   '\nTotal Confirmed : '+str(total_confirmed_HU)+
-   '\nNew Deaths : '+str(new_deaths_HU)+
-   '\nTotal Deaths : '+str(total_deaths_HU)+
-   '\nNew Recovered : '+str(new_recovered_HU)+
-   '\nTotal Recovered : '+str(total_recovered_HU))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Hungary</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_HU)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_HU)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_HU)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_HU)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_HU)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_HU)+'</pre>',parse_mode='HTML')
 def IS(update, context):
     new_confirmed_IS=(summary["Countries"][75]["NewConfirmed"])
     total_confirmed_IS=(summary["Countries"][75]["TotalConfirmed"])
@@ -1352,14 +1279,13 @@ def IS(update, context):
     total_deaths_IS=(summary["Countries"][75]["TotalDeaths"])
     new_recovered_IS=(summary["Countries"][75]["NewRecovered"])
     total_recovered_IS=(summary["Countries"][75]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Iceland'
-   '\nNew Confirmed : '+str(new_confirmed_IS)+
-   '\nTotal Confirmed : '+str(total_confirmed_IS)+
-   '\nNew Deaths : '+str(new_deaths_IS)+
-   '\nTotal Deaths : '+str(total_deaths_IS)+
-   '\nNew Recovered : '+str(new_recovered_IS)+
-   '\nTotal Recovered : '+str(total_recovered_IS))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Iceland</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IS)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IS)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IS)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IS)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IS)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IS)+'</pre>',parse_mode='HTML')
 def IN(update, context):
     new_confirmed_IN=(summary["Countries"][76]["NewConfirmed"])
     total_confirmed_IN=(summary["Countries"][76]["TotalConfirmed"])
@@ -1367,14 +1293,13 @@ def IN(update, context):
     total_deaths_IN=(summary["Countries"][76]["TotalDeaths"])
     new_recovered_IN=(summary["Countries"][76]["NewRecovered"])
     total_recovered_IN=(summary["Countries"][76]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': India'
-   '\nNew Confirmed : '+str(new_confirmed_IN)+
-   '\nTotal Confirmed : '+str(total_confirmed_IN)+
-   '\nNew Deaths : '+str(new_deaths_IN)+
-   '\nTotal Deaths : '+str(total_deaths_IN)+
-   '\nNew Recovered : '+str(new_recovered_IN)+
-   '\nTotal Recovered : '+str(total_recovered_IN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>India</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IN)+'</pre>',parse_mode='HTML')
 def ID(update, context):
     new_confirmed_ID=(summary["Countries"][77]["NewConfirmed"])
     total_confirmed_ID=(summary["Countries"][77]["TotalConfirmed"])
@@ -1382,14 +1307,13 @@ def ID(update, context):
     total_deaths_ID=(summary["Countries"][77]["TotalDeaths"])
     new_recovered_ID=(summary["Countries"][77]["NewRecovered"])
     total_recovered_ID=(summary["Countries"][77]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Indonesia'
-   '\nNew Confirmed : '+str(new_confirmed_ID)+
-   '\nTotal Confirmed : '+str(total_confirmed_ID)+
-   '\nNew Deaths : '+str(new_deaths_ID)+
-   '\nTotal Deaths : '+str(total_deaths_ID)+
-   '\nNew Recovered : '+str(new_recovered_ID)+
-   '\nTotal Recovered : '+str(total_recovered_ID))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Indonesia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ID)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ID)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ID)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ID)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ID)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ID)+'</pre>',parse_mode='HTML')
 def IR(update, context):
     new_confirmed_IR=(summary["Countries"][78]["NewConfirmed"])
     total_confirmed_IR=(summary["Countries"][78]["TotalConfirmed"])
@@ -1397,14 +1321,13 @@ def IR(update, context):
     total_deaths_IR=(summary["Countries"][78]["TotalDeaths"])
     new_recovered_IR=(summary["Countries"][78]["NewRecovered"])
     total_recovered_IR=(summary["Countries"][78]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Iran, Islamic Republic of'
-   '\nNew Confirmed : '+str(new_confirmed_IR)+
-   '\nTotal Confirmed : '+str(total_confirmed_IR)+
-   '\nNew Deaths : '+str(new_deaths_IR)+
-   '\nTotal Deaths : '+str(total_deaths_IR)+
-   '\nNew Recovered : '+str(new_recovered_IR)+
-   '\nTotal Recovered : '+str(total_recovered_IR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Iran, Islamic Republic of</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IR)+'</pre>',parse_mode='HTML')
 def IQ(update, context):
     new_confirmed_IQ=(summary["Countries"][79]["NewConfirmed"])
     total_confirmed_IQ=(summary["Countries"][79]["TotalConfirmed"])
@@ -1412,14 +1335,13 @@ def IQ(update, context):
     total_deaths_IQ=(summary["Countries"][79]["TotalDeaths"])
     new_recovered_IQ=(summary["Countries"][79]["NewRecovered"])
     total_recovered_IQ=(summary["Countries"][79]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Iraq'
-   '\nNew Confirmed : '+str(new_confirmed_IQ)+
-   '\nTotal Confirmed : '+str(total_confirmed_IQ)+
-   '\nNew Deaths : '+str(new_deaths_IQ)+
-   '\nTotal Deaths : '+str(total_deaths_IQ)+
-   '\nNew Recovered : '+str(new_recovered_IQ)+
-   '\nTotal Recovered : '+str(total_recovered_IQ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Iraq</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IQ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IQ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IQ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IQ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IQ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IQ)+'</pre>',parse_mode='HTML')
 def IE(update, context):
     new_confirmed_IE=(summary["Countries"][80]["NewConfirmed"])
     total_confirmed_IE=(summary["Countries"][80]["TotalConfirmed"])
@@ -1427,14 +1349,13 @@ def IE(update, context):
     total_deaths_IE=(summary["Countries"][80]["TotalDeaths"])
     new_recovered_IE=(summary["Countries"][80]["NewRecovered"])
     total_recovered_IE=(summary["Countries"][80]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Ireland'
-   '\nNew Confirmed : '+str(new_confirmed_IE)+
-   '\nTotal Confirmed : '+str(total_confirmed_IE)+
-   '\nNew Deaths : '+str(new_deaths_IE)+
-   '\nTotal Deaths : '+str(total_deaths_IE)+
-   '\nNew Recovered : '+str(new_recovered_IE)+
-   '\nTotal Recovered : '+str(total_recovered_IE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Ireland</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IE)+'</pre>',parse_mode='HTML')
 def IL(update, context):
     new_confirmed_IL=(summary["Countries"][81]["NewConfirmed"])
     total_confirmed_IL=(summary["Countries"][81]["TotalConfirmed"])
@@ -1442,14 +1363,13 @@ def IL(update, context):
     total_deaths_IL=(summary["Countries"][81]["TotalDeaths"])
     new_recovered_IL=(summary["Countries"][81]["NewRecovered"])
     total_recovered_IL=(summary["Countries"][81]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Israel'
-   '\nNew Confirmed : '+str(new_confirmed_IL)+
-   '\nTotal Confirmed : '+str(total_confirmed_IL)+
-   '\nNew Deaths : '+str(new_deaths_IL)+
-   '\nTotal Deaths : '+str(total_deaths_IL)+
-   '\nNew Recovered : '+str(new_recovered_IL)+
-   '\nTotal Recovered : '+str(total_recovered_IL))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Israel</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IL)+'</pre>',parse_mode='HTML')
 def IT(update, context):
     new_confirmed_IT=(summary["Countries"][82]["NewConfirmed"])
     total_confirmed_IT=(summary["Countries"][82]["TotalConfirmed"])
@@ -1457,14 +1377,13 @@ def IT(update, context):
     total_deaths_IT=(summary["Countries"][82]["TotalDeaths"])
     new_recovered_IT=(summary["Countries"][82]["NewRecovered"])
     total_recovered_IT=(summary["Countries"][82]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Italy'
-   '\nNew Confirmed : '+str(new_confirmed_IT)+
-   '\nTotal Confirmed : '+str(total_confirmed_IT)+
-   '\nNew Deaths : '+str(new_deaths_IT)+
-   '\nTotal Deaths : '+str(total_deaths_IT)+
-   '\nNew Recovered : '+str(new_recovered_IT)+
-   '\nTotal Recovered : '+str(total_recovered_IT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Italy</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_IT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_IT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_IT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_IT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_IT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_IT)+'</pre>',parse_mode='HTML')
 def JM(update, context):
     new_confirmed_JM=(summary["Countries"][83]["NewConfirmed"])
     total_confirmed_JM=(summary["Countries"][83]["TotalConfirmed"])
@@ -1472,14 +1391,13 @@ def JM(update, context):
     total_deaths_JM=(summary["Countries"][83]["TotalDeaths"])
     new_recovered_JM=(summary["Countries"][83]["NewRecovered"])
     total_recovered_JM=(summary["Countries"][83]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Jamaica'
-   '\nNew Confirmed : '+str(new_confirmed_JM)+
-   '\nTotal Confirmed : '+str(total_confirmed_JM)+
-   '\nNew Deaths : '+str(new_deaths_JM)+
-   '\nTotal Deaths : '+str(total_deaths_JM)+
-   '\nNew Recovered : '+str(new_recovered_JM)+
-   '\nTotal Recovered : '+str(total_recovered_JM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Jamaica</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_JM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_JM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_JM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_JM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_JM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_JM)+'</pre>',parse_mode='HTML')
 def JP(update, context):
     new_confirmed_JP=(summary["Countries"][84]["NewConfirmed"])
     total_confirmed_JP=(summary["Countries"][84]["TotalConfirmed"])
@@ -1487,14 +1405,13 @@ def JP(update, context):
     total_deaths_JP=(summary["Countries"][84]["TotalDeaths"])
     new_recovered_JP=(summary["Countries"][84]["NewRecovered"])
     total_recovered_JP=(summary["Countries"][84]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Japan'
-   '\nNew Confirmed : '+str(new_confirmed_JP)+
-   '\nTotal Confirmed : '+str(total_confirmed_JP)+
-   '\nNew Deaths : '+str(new_deaths_JP)+
-   '\nTotal Deaths : '+str(total_deaths_JP)+
-   '\nNew Recovered : '+str(new_recovered_JP)+
-   '\nTotal Recovered : '+str(total_recovered_JP))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Japan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_JP)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_JP)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_JP)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_JP)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_JP)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_JP)+'</pre>',parse_mode='HTML')
 def JO(update, context):
     new_confirmed_JO=(summary["Countries"][85]["NewConfirmed"])
     total_confirmed_JO=(summary["Countries"][85]["TotalConfirmed"])
@@ -1502,14 +1419,13 @@ def JO(update, context):
     total_deaths_JO=(summary["Countries"][85]["TotalDeaths"])
     new_recovered_JO=(summary["Countries"][85]["NewRecovered"])
     total_recovered_JO=(summary["Countries"][85]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Jordan'
-   '\nNew Confirmed : '+str(new_confirmed_JO)+
-   '\nTotal Confirmed : '+str(total_confirmed_JO)+
-   '\nNew Deaths : '+str(new_deaths_JO)+
-   '\nTotal Deaths : '+str(total_deaths_JO)+
-   '\nNew Recovered : '+str(new_recovered_JO)+
-   '\nTotal Recovered : '+str(total_recovered_JO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Jordan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_JO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_JO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_JO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_JO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_JO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_JO)+'</pre>',parse_mode='HTML')
 def KZ(update, context):
     new_confirmed_KZ=(summary["Countries"][86]["NewConfirmed"])
     total_confirmed_KZ=(summary["Countries"][86]["TotalConfirmed"])
@@ -1517,14 +1433,13 @@ def KZ(update, context):
     total_deaths_KZ=(summary["Countries"][86]["TotalDeaths"])
     new_recovered_KZ=(summary["Countries"][86]["NewRecovered"])
     total_recovered_KZ=(summary["Countries"][86]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Kazakhstan'
-   '\nNew Confirmed : '+str(new_confirmed_KZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_KZ)+
-   '\nNew Deaths : '+str(new_deaths_KZ)+
-   '\nTotal Deaths : '+str(total_deaths_KZ)+
-   '\nNew Recovered : '+str(new_recovered_KZ)+
-   '\nTotal Recovered : '+str(total_recovered_KZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Kazakhstan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KZ)+'</pre>',parse_mode='HTML')
 def KE(update, context):
     new_confirmed_KE=(summary["Countries"][87]["NewConfirmed"])
     total_confirmed_KE=(summary["Countries"][87]["TotalConfirmed"])
@@ -1532,14 +1447,13 @@ def KE(update, context):
     total_deaths_KE=(summary["Countries"][87]["TotalDeaths"])
     new_recovered_KE=(summary["Countries"][87]["NewRecovered"])
     total_recovered_KE=(summary["Countries"][87]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Kenya'
-   '\nNew Confirmed : '+str(new_confirmed_KE)+
-   '\nTotal Confirmed : '+str(total_confirmed_KE)+
-   '\nNew Deaths : '+str(new_deaths_KE)+
-   '\nTotal Deaths : '+str(total_deaths_KE)+
-   '\nNew Recovered : '+str(new_recovered_KE)+
-   '\nTotal Recovered : '+str(total_recovered_KE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Kenya</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KE)+'</pre>',parse_mode='HTML')
 def KR(update, context):
     new_confirmed_KR=(summary["Countries"][88]["NewConfirmed"])
     total_confirmed_KR=(summary["Countries"][88]["TotalConfirmed"])
@@ -1547,14 +1461,13 @@ def KR(update, context):
     total_deaths_KR=(summary["Countries"][88]["TotalDeaths"])
     new_recovered_KR=(summary["Countries"][88]["NewRecovered"])
     total_recovered_KR=(summary["Countries"][88]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Korea (South)'
-   '\nNew Confirmed : '+str(new_confirmed_KR)+
-   '\nTotal Confirmed : '+str(total_confirmed_KR)+
-   '\nNew Deaths : '+str(new_deaths_KR)+
-   '\nTotal Deaths : '+str(total_deaths_KR)+
-   '\nNew Recovered : '+str(new_recovered_KR)+
-   '\nTotal Recovered : '+str(total_recovered_KR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Korea (South)</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KR)+'</pre>',parse_mode='HTML')
 def KW(update, context):
     new_confirmed_KW=(summary["Countries"][89]["NewConfirmed"])
     total_confirmed_KW=(summary["Countries"][89]["TotalConfirmed"])
@@ -1562,14 +1475,13 @@ def KW(update, context):
     total_deaths_KW=(summary["Countries"][89]["TotalDeaths"])
     new_recovered_KW=(summary["Countries"][89]["NewRecovered"])
     total_recovered_KW=(summary["Countries"][89]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Kuwait'
-   '\nNew Confirmed : '+str(new_confirmed_KW)+
-   '\nTotal Confirmed : '+str(total_confirmed_KW)+
-   '\nNew Deaths : '+str(new_deaths_KW)+
-   '\nTotal Deaths : '+str(total_deaths_KW)+
-   '\nNew Recovered : '+str(new_recovered_KW)+
-   '\nTotal Recovered : '+str(total_recovered_KW))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Kuwait</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KW)+'</pre>',parse_mode='HTML')
 def KG(update, context):
     new_confirmed_KG=(summary["Countries"][90]["NewConfirmed"])
     total_confirmed_KG=(summary["Countries"][90]["TotalConfirmed"])
@@ -1577,14 +1489,13 @@ def KG(update, context):
     total_deaths_KG=(summary["Countries"][90]["TotalDeaths"])
     new_recovered_KG=(summary["Countries"][90]["NewRecovered"])
     total_recovered_KG=(summary["Countries"][90]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Kyrgyzstan'
-   '\nNew Confirmed : '+str(new_confirmed_KG)+
-   '\nTotal Confirmed : '+str(total_confirmed_KG)+
-   '\nNew Deaths : '+str(new_deaths_KG)+
-   '\nTotal Deaths : '+str(total_deaths_KG)+
-   '\nNew Recovered : '+str(new_recovered_KG)+
-   '\nTotal Recovered : '+str(total_recovered_KG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Kyrgyzstan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KG)+'</pre>',parse_mode='HTML')
 def LA(update, context):
     new_confirmed_LA=(summary["Countries"][91]["NewConfirmed"])
     total_confirmed_LA=(summary["Countries"][91]["TotalConfirmed"])
@@ -1592,14 +1503,13 @@ def LA(update, context):
     total_deaths_LA=(summary["Countries"][91]["TotalDeaths"])
     new_recovered_LA=(summary["Countries"][91]["NewRecovered"])
     total_recovered_LA=(summary["Countries"][91]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Lao PDR'
-   '\nNew Confirmed : '+str(new_confirmed_LA)+
-   '\nTotal Confirmed : '+str(total_confirmed_LA)+
-   '\nNew Deaths : '+str(new_deaths_LA)+
-   '\nTotal Deaths : '+str(total_deaths_LA)+
-   '\nNew Recovered : '+str(new_recovered_LA)+
-   '\nTotal Recovered : '+str(total_recovered_LA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Lao PDR</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LA)+'</pre>',parse_mode='HTML')
 def LV(update, context):
     new_confirmed_LV=(summary["Countries"][92]["NewConfirmed"])
     total_confirmed_LV=(summary["Countries"][92]["TotalConfirmed"])
@@ -1607,14 +1517,13 @@ def LV(update, context):
     total_deaths_LV=(summary["Countries"][92]["TotalDeaths"])
     new_recovered_LV=(summary["Countries"][92]["NewRecovered"])
     total_recovered_LV=(summary["Countries"][92]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Latvia'
-   '\nNew Confirmed : '+str(new_confirmed_LV)+
-   '\nTotal Confirmed : '+str(total_confirmed_LV)+
-   '\nNew Deaths : '+str(new_deaths_LV)+
-   '\nTotal Deaths : '+str(total_deaths_LV)+
-   '\nNew Recovered : '+str(new_recovered_LV)+
-   '\nTotal Recovered : '+str(total_recovered_LV))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Latvia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LV)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LV)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LV)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LV)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LV)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LV)+'</pre>',parse_mode='HTML')
 def LB(update, context):
     new_confirmed_LB=(summary["Countries"][93]["NewConfirmed"])
     total_confirmed_LB=(summary["Countries"][93]["TotalConfirmed"])
@@ -1622,14 +1531,13 @@ def LB(update, context):
     total_deaths_LB=(summary["Countries"][93]["TotalDeaths"])
     new_recovered_LB=(summary["Countries"][93]["NewRecovered"])
     total_recovered_LB=(summary["Countries"][93]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Lebanon'
-   '\nNew Confirmed : '+str(new_confirmed_LB)+
-   '\nTotal Confirmed : '+str(total_confirmed_LB)+
-   '\nNew Deaths : '+str(new_deaths_LB)+
-   '\nTotal Deaths : '+str(total_deaths_LB)+
-   '\nNew Recovered : '+str(new_recovered_LB)+
-   '\nTotal Recovered : '+str(total_recovered_LB))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Lebanon</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LB)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LB)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LB)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LB)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LB)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LB)+'</pre>',parse_mode='HTML')
 def LS(update, context):
     new_confirmed_LS=(summary["Countries"][94]["NewConfirmed"])
     total_confirmed_LS=(summary["Countries"][94]["TotalConfirmed"])
@@ -1637,14 +1545,13 @@ def LS(update, context):
     total_deaths_LS=(summary["Countries"][94]["TotalDeaths"])
     new_recovered_LS=(summary["Countries"][94]["NewRecovered"])
     total_recovered_LS=(summary["Countries"][94]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Lesotho'
-   '\nNew Confirmed : '+str(new_confirmed_LS)+
-   '\nTotal Confirmed : '+str(total_confirmed_LS)+
-   '\nNew Deaths : '+str(new_deaths_LS)+
-   '\nTotal Deaths : '+str(total_deaths_LS)+
-   '\nNew Recovered : '+str(new_recovered_LS)+
-   '\nTotal Recovered : '+str(total_recovered_LS))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Lesotho</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LS)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LS)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LS)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LS)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LS)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LS)+'</pre>',parse_mode='HTML')
 def LR(update, context):
     new_confirmed_LR=(summary["Countries"][95]["NewConfirmed"])
     total_confirmed_LR=(summary["Countries"][95]["TotalConfirmed"])
@@ -1652,14 +1559,13 @@ def LR(update, context):
     total_deaths_LR=(summary["Countries"][95]["TotalDeaths"])
     new_recovered_LR=(summary["Countries"][95]["NewRecovered"])
     total_recovered_LR=(summary["Countries"][95]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Liberia'
-   '\nNew Confirmed : '+str(new_confirmed_LR)+
-   '\nTotal Confirmed : '+str(total_confirmed_LR)+
-   '\nNew Deaths : '+str(new_deaths_LR)+
-   '\nTotal Deaths : '+str(total_deaths_LR)+
-   '\nNew Recovered : '+str(new_recovered_LR)+
-   '\nTotal Recovered : '+str(total_recovered_LR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Liberia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LR)+'</pre>',parse_mode='HTML')
 def LY(update, context):
     new_confirmed_LY=(summary["Countries"][96]["NewConfirmed"])
     total_confirmed_LY=(summary["Countries"][96]["TotalConfirmed"])
@@ -1667,14 +1573,13 @@ def LY(update, context):
     total_deaths_LY=(summary["Countries"][96]["TotalDeaths"])
     new_recovered_LY=(summary["Countries"][96]["NewRecovered"])
     total_recovered_LY=(summary["Countries"][96]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Libya'
-   '\nNew Confirmed : '+str(new_confirmed_LY)+
-   '\nTotal Confirmed : '+str(total_confirmed_LY)+
-   '\nNew Deaths : '+str(new_deaths_LY)+
-   '\nTotal Deaths : '+str(total_deaths_LY)+
-   '\nNew Recovered : '+str(new_recovered_LY)+
-   '\nTotal Recovered : '+str(total_recovered_LY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Libya</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LY)+'</pre>',parse_mode='HTML')
 def LI(update, context):
     new_confirmed_LI=(summary["Countries"][97]["NewConfirmed"])
     total_confirmed_LI=(summary["Countries"][97]["TotalConfirmed"])
@@ -1682,14 +1587,13 @@ def LI(update, context):
     total_deaths_LI=(summary["Countries"][97]["TotalDeaths"])
     new_recovered_LI=(summary["Countries"][97]["NewRecovered"])
     total_recovered_LI=(summary["Countries"][97]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Liechtenstein'
-   '\nNew Confirmed : '+str(new_confirmed_LI)+
-   '\nTotal Confirmed : '+str(total_confirmed_LI)+
-   '\nNew Deaths : '+str(new_deaths_LI)+
-   '\nTotal Deaths : '+str(total_deaths_LI)+
-   '\nNew Recovered : '+str(new_recovered_LI)+
-   '\nTotal Recovered : '+str(total_recovered_LI))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Liechtenstein</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LI)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LI)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LI)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LI)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LI)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LI)+'</pre>',parse_mode='HTML')
 def LT(update, context):
     new_confirmed_LT=(summary["Countries"][98]["NewConfirmed"])
     total_confirmed_LT=(summary["Countries"][98]["TotalConfirmed"])
@@ -1697,14 +1601,13 @@ def LT(update, context):
     total_deaths_LT=(summary["Countries"][98]["TotalDeaths"])
     new_recovered_LT=(summary["Countries"][98]["NewRecovered"])
     total_recovered_LT=(summary["Countries"][98]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Lithuania'
-   '\nNew Confirmed : '+str(new_confirmed_LT)+
-   '\nTotal Confirmed : '+str(total_confirmed_LT)+
-   '\nNew Deaths : '+str(new_deaths_LT)+
-   '\nTotal Deaths : '+str(total_deaths_LT)+
-   '\nNew Recovered : '+str(new_recovered_LT)+
-   '\nTotal Recovered : '+str(total_recovered_LT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Lithuania</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LT)+'</pre>',parse_mode='HTML')
 def LU(update, context):
     new_confirmed_LU=(summary["Countries"][99]["NewConfirmed"])
     total_confirmed_LU=(summary["Countries"][99]["TotalConfirmed"])
@@ -1712,29 +1615,28 @@ def LU(update, context):
     total_deaths_LU=(summary["Countries"][99]["TotalDeaths"])
     new_recovered_LU=(summary["Countries"][99]["NewRecovered"])
     total_recovered_LU=(summary["Countries"][99]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Luxembourg'
-   '\nNew Confirmed : '+str(new_confirmed_LU)+
-   '\nTotal Confirmed : '+str(total_confirmed_LU)+
-   '\nNew Deaths : '+str(new_deaths_LU)+
-   '\nTotal Deaths : '+str(total_deaths_LU)+
-   '\nNew Recovered : '+str(new_recovered_LU)+
-   '\nTotal Recovered : '+str(total_recovered_LU))
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Luxembourg</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LU)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LU)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LU)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LU)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LU)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LU)+'</pre>',parse_mode='HTML')
 
 def MK(update, context):
-    new_confirmed_MK=(summary["Countries"][100]["NewConfirmed"])    
+    new_confirmed_MK=(summary["Countries"][100]["NewConfirmed"])
     total_confirmed_MK=(summary["Countries"][100]["TotalConfirmed"])
     new_deaths_MK=(summary["Countries"][100]["NewDeaths"])
-    total_deaths_MK=(summary["Countries"][100]["TotalDeaths"])      
-    new_recovered_MK=(summary["Countries"][100]["NewRecovered"])    
+    total_deaths_MK=(summary["Countries"][100]["TotalDeaths"])
+    new_recovered_MK=(summary["Countries"][100]["NewRecovered"])
     total_recovered_MK=(summary["Countries"][100]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Macedonia, Republic of'
-   '\nNew Confirmed : '+str(new_confirmed_MK)+
-   '\nTotal Confirmed : '+str(total_confirmed_MK)+
-   '\nNew Deaths : '+str(new_deaths_MK)+
-   '\nTotal Deaths : '+str(total_deaths_MK)+
-   '\nNew Recovered : '+str(new_recovered_MK)+
-   '\nTotal Recovered : '+str(total_recovered_MK))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Macedonia, Republic of</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MK)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MK)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MK)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MK)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MK)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MK)+'</pre>',parse_mode='HTML')
 def MG(update, context):
     new_confirmed_MG=(summary["Countries"][101]["NewConfirmed"])
     total_confirmed_MG=(summary["Countries"][101]["TotalConfirmed"])
@@ -1742,14 +1644,13 @@ def MG(update, context):
     total_deaths_MG=(summary["Countries"][101]["TotalDeaths"])
     new_recovered_MG=(summary["Countries"][101]["NewRecovered"])
     total_recovered_MG=(summary["Countries"][101]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Madagascar'
-   '\nNew Confirmed : '+str(new_confirmed_MG)+
-   '\nTotal Confirmed : '+str(total_confirmed_MG)+
-   '\nNew Deaths : '+str(new_deaths_MG)+
-   '\nTotal Deaths : '+str(total_deaths_MG)+
-   '\nNew Recovered : '+str(new_recovered_MG)+
-   '\nTotal Recovered : '+str(total_recovered_MG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Madagascar</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MG)+'</pre>',parse_mode='HTML')
 def MW(update, context):
     new_confirmed_MW=(summary["Countries"][102]["NewConfirmed"])
     total_confirmed_MW=(summary["Countries"][102]["TotalConfirmed"])
@@ -1757,14 +1658,13 @@ def MW(update, context):
     total_deaths_MW=(summary["Countries"][102]["TotalDeaths"])
     new_recovered_MW=(summary["Countries"][102]["NewRecovered"])
     total_recovered_MW=(summary["Countries"][102]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Malawi'
-   '\nNew Confirmed : '+str(new_confirmed_MW)+
-   '\nTotal Confirmed : '+str(total_confirmed_MW)+
-   '\nNew Deaths : '+str(new_deaths_MW)+
-   '\nTotal Deaths : '+str(total_deaths_MW)+
-   '\nNew Recovered : '+str(new_recovered_MW)+
-   '\nTotal Recovered : '+str(total_recovered_MW))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Malawi</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MW)+'</pre>',parse_mode='HTML')
 def MY(update, context):
     new_confirmed_MY=(summary["Countries"][103]["NewConfirmed"])
     total_confirmed_MY=(summary["Countries"][103]["TotalConfirmed"])
@@ -1772,14 +1672,13 @@ def MY(update, context):
     total_deaths_MY=(summary["Countries"][103]["TotalDeaths"])
     new_recovered_MY=(summary["Countries"][103]["NewRecovered"])
     total_recovered_MY=(summary["Countries"][103]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Malaysia'
-   '\nNew Confirmed : '+str(new_confirmed_MY)+
-   '\nTotal Confirmed : '+str(total_confirmed_MY)+
-   '\nNew Deaths : '+str(new_deaths_MY)+
-   '\nTotal Deaths : '+str(total_deaths_MY)+
-   '\nNew Recovered : '+str(new_recovered_MY)+
-   '\nTotal Recovered : '+str(total_recovered_MY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Malaysia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MY)+'</pre>',parse_mode='HTML')
 def MV(update, context):
     new_confirmed_MV=(summary["Countries"][104]["NewConfirmed"])
     total_confirmed_MV=(summary["Countries"][104]["TotalConfirmed"])
@@ -1787,14 +1686,13 @@ def MV(update, context):
     total_deaths_MV=(summary["Countries"][104]["TotalDeaths"])
     new_recovered_MV=(summary["Countries"][104]["NewRecovered"])
     total_recovered_MV=(summary["Countries"][104]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Maldives'
-   '\nNew Confirmed : '+str(new_confirmed_MV)+
-   '\nTotal Confirmed : '+str(total_confirmed_MV)+
-   '\nNew Deaths : '+str(new_deaths_MV)+
-   '\nTotal Deaths : '+str(total_deaths_MV)+
-   '\nNew Recovered : '+str(new_recovered_MV)+
-   '\nTotal Recovered : '+str(total_recovered_MV))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Maldives</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MV)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MV)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MV)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MV)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MV)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MV)+'</pre>',parse_mode='HTML')
 def ML(update, context):
     new_confirmed_ML=(summary["Countries"][105]["NewConfirmed"])
     total_confirmed_ML=(summary["Countries"][105]["TotalConfirmed"])
@@ -1802,14 +1700,13 @@ def ML(update, context):
     total_deaths_ML=(summary["Countries"][105]["TotalDeaths"])
     new_recovered_ML=(summary["Countries"][105]["NewRecovered"])
     total_recovered_ML=(summary["Countries"][105]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Mali'
-   '\nNew Confirmed : '+str(new_confirmed_ML)+
-   '\nTotal Confirmed : '+str(total_confirmed_ML)+
-   '\nNew Deaths : '+str(new_deaths_ML)+
-   '\nTotal Deaths : '+str(total_deaths_ML)+
-   '\nNew Recovered : '+str(new_recovered_ML)+
-   '\nTotal Recovered : '+str(total_recovered_ML))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Mali</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ML)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ML)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ML)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ML)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ML)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ML)+'</pre>',parse_mode='HTML')
 def MT(update, context):
     new_confirmed_MT=(summary["Countries"][106]["NewConfirmed"])
     total_confirmed_MT=(summary["Countries"][106]["TotalConfirmed"])
@@ -1817,14 +1714,13 @@ def MT(update, context):
     total_deaths_MT=(summary["Countries"][106]["TotalDeaths"])
     new_recovered_MT=(summary["Countries"][106]["NewRecovered"])
     total_recovered_MT=(summary["Countries"][106]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Malta'
-   '\nNew Confirmed : '+str(new_confirmed_MT)+
-   '\nTotal Confirmed : '+str(total_confirmed_MT)+
-   '\nNew Deaths : '+str(new_deaths_MT)+
-   '\nTotal Deaths : '+str(total_deaths_MT)+
-   '\nNew Recovered : '+str(new_recovered_MT)+
-   '\nTotal Recovered : '+str(total_recovered_MT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Malta</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MT)+'</pre>',parse_mode='HTML')
 def MR(update, context):
     new_confirmed_MR=(summary["Countries"][107]["NewConfirmed"])
     total_confirmed_MR=(summary["Countries"][107]["TotalConfirmed"])
@@ -1832,14 +1728,13 @@ def MR(update, context):
     total_deaths_MR=(summary["Countries"][107]["TotalDeaths"])
     new_recovered_MR=(summary["Countries"][107]["NewRecovered"])
     total_recovered_MR=(summary["Countries"][107]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Mauritania'
-   '\nNew Confirmed : '+str(new_confirmed_MR)+
-   '\nTotal Confirmed : '+str(total_confirmed_MR)+
-   '\nNew Deaths : '+str(new_deaths_MR)+
-   '\nTotal Deaths : '+str(total_deaths_MR)+
-   '\nNew Recovered : '+str(new_recovered_MR)+
-   '\nTotal Recovered : '+str(total_recovered_MR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Mauritania</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MR)+'</pre>',parse_mode='HTML')
 def MU(update, context):
     new_confirmed_MU=(summary["Countries"][108]["NewConfirmed"])
     total_confirmed_MU=(summary["Countries"][108]["TotalConfirmed"])
@@ -1847,14 +1742,13 @@ def MU(update, context):
     total_deaths_MU=(summary["Countries"][108]["TotalDeaths"])
     new_recovered_MU=(summary["Countries"][108]["NewRecovered"])
     total_recovered_MU=(summary["Countries"][108]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Mauritius'
-   '\nNew Confirmed : '+str(new_confirmed_MU)+
-   '\nTotal Confirmed : '+str(total_confirmed_MU)+
-   '\nNew Deaths : '+str(new_deaths_MU)+
-   '\nTotal Deaths : '+str(total_deaths_MU)+
-   '\nNew Recovered : '+str(new_recovered_MU)+
-   '\nTotal Recovered : '+str(total_recovered_MU))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Mauritius</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MU)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MU)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MU)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MU)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MU)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MU)+'</pre>',parse_mode='HTML')
 def MX(update, context):
     new_confirmed_MX=(summary["Countries"][109]["NewConfirmed"])
     total_confirmed_MX=(summary["Countries"][109]["TotalConfirmed"])
@@ -1862,14 +1756,13 @@ def MX(update, context):
     total_deaths_MX=(summary["Countries"][109]["TotalDeaths"])
     new_recovered_MX=(summary["Countries"][109]["NewRecovered"])
     total_recovered_MX=(summary["Countries"][109]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Mexico'
-   '\nNew Confirmed : '+str(new_confirmed_MX)+
-   '\nTotal Confirmed : '+str(total_confirmed_MX)+
-   '\nNew Deaths : '+str(new_deaths_MX)+
-   '\nTotal Deaths : '+str(total_deaths_MX)+
-   '\nNew Recovered : '+str(new_recovered_MX)+
-   '\nTotal Recovered : '+str(total_recovered_MX))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Mexico</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MX)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MX)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MX)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MX)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MX)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MX)+'</pre>',parse_mode='HTML')
 def MD(update, context):
     new_confirmed_MD=(summary["Countries"][110]["NewConfirmed"])
     total_confirmed_MD=(summary["Countries"][110]["TotalConfirmed"])
@@ -1877,14 +1770,13 @@ def MD(update, context):
     total_deaths_MD=(summary["Countries"][110]["TotalDeaths"])
     new_recovered_MD=(summary["Countries"][110]["NewRecovered"])
     total_recovered_MD=(summary["Countries"][110]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Moldova'
-   '\nNew Confirmed : '+str(new_confirmed_MD)+
-   '\nTotal Confirmed : '+str(total_confirmed_MD)+
-   '\nNew Deaths : '+str(new_deaths_MD)+
-   '\nTotal Deaths : '+str(total_deaths_MD)+
-   '\nNew Recovered : '+str(new_recovered_MD)+
-   '\nTotal Recovered : '+str(total_recovered_MD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Moldova</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MD)+'</pre>',parse_mode='HTML')
 def MC(update, context):
     new_confirmed_MC=(summary["Countries"][111]["NewConfirmed"])
     total_confirmed_MC=(summary["Countries"][111]["TotalConfirmed"])
@@ -1892,14 +1784,13 @@ def MC(update, context):
     total_deaths_MC=(summary["Countries"][111]["TotalDeaths"])
     new_recovered_MC=(summary["Countries"][111]["NewRecovered"])
     total_recovered_MC=(summary["Countries"][111]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Monaco'
-   '\nNew Confirmed : '+str(new_confirmed_MC)+
-   '\nTotal Confirmed : '+str(total_confirmed_MC)+
-   '\nNew Deaths : '+str(new_deaths_MC)+
-   '\nTotal Deaths : '+str(total_deaths_MC)+
-   '\nNew Recovered : '+str(new_recovered_MC)+
-   '\nTotal Recovered : '+str(total_recovered_MC))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Monaco</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MC)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MC)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MC)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MC)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MC)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MC)+'</pre>',parse_mode='HTML')
 def MN(update, context):
     new_confirmed_MN=(summary["Countries"][112]["NewConfirmed"])
     total_confirmed_MN=(summary["Countries"][112]["TotalConfirmed"])
@@ -1907,14 +1798,13 @@ def MN(update, context):
     total_deaths_MN=(summary["Countries"][112]["TotalDeaths"])
     new_recovered_MN=(summary["Countries"][112]["NewRecovered"])
     total_recovered_MN=(summary["Countries"][112]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Mongolia'
-   '\nNew Confirmed : '+str(new_confirmed_MN)+
-   '\nTotal Confirmed : '+str(total_confirmed_MN)+
-   '\nNew Deaths : '+str(new_deaths_MN)+
-   '\nTotal Deaths : '+str(total_deaths_MN)+
-   '\nNew Recovered : '+str(new_recovered_MN)+
-   '\nTotal Recovered : '+str(total_recovered_MN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Mongolia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MN)+'</pre>',parse_mode='HTML')
 def ME(update, context):
     new_confirmed_ME=(summary["Countries"][113]["NewConfirmed"])
     total_confirmed_ME=(summary["Countries"][113]["TotalConfirmed"])
@@ -1922,14 +1812,13 @@ def ME(update, context):
     total_deaths_ME=(summary["Countries"][113]["TotalDeaths"])
     new_recovered_ME=(summary["Countries"][113]["NewRecovered"])
     total_recovered_ME=(summary["Countries"][113]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Montenegro'
-   '\nNew Confirmed : '+str(new_confirmed_ME)+
-   '\nTotal Confirmed : '+str(total_confirmed_ME)+
-   '\nNew Deaths : '+str(new_deaths_ME)+
-   '\nTotal Deaths : '+str(total_deaths_ME)+
-   '\nNew Recovered : '+str(new_recovered_ME)+
-   '\nTotal Recovered : '+str(total_recovered_ME))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Montenegro</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ME)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ME)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ME)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ME)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ME)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ME)+'</pre>',parse_mode='HTML')
 def MA(update, context):
     new_confirmed_MA=(summary["Countries"][114]["NewConfirmed"])
     total_confirmed_MA=(summary["Countries"][114]["TotalConfirmed"])
@@ -1937,14 +1826,13 @@ def MA(update, context):
     total_deaths_MA=(summary["Countries"][114]["TotalDeaths"])
     new_recovered_MA=(summary["Countries"][114]["NewRecovered"])
     total_recovered_MA=(summary["Countries"][114]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Morocco'
-   '\nNew Confirmed : '+str(new_confirmed_MA)+
-   '\nTotal Confirmed : '+str(total_confirmed_MA)+
-   '\nNew Deaths : '+str(new_deaths_MA)+
-   '\nTotal Deaths : '+str(total_deaths_MA)+
-   '\nNew Recovered : '+str(new_recovered_MA)+
-   '\nTotal Recovered : '+str(total_recovered_MA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Morocco</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MA)+'</pre>',parse_mode='HTML')
 def MZ(update, context):
     new_confirmed_MZ=(summary["Countries"][115]["NewConfirmed"])
     total_confirmed_MZ=(summary["Countries"][115]["TotalConfirmed"])
@@ -1952,14 +1840,13 @@ def MZ(update, context):
     total_deaths_MZ=(summary["Countries"][115]["TotalDeaths"])
     new_recovered_MZ=(summary["Countries"][115]["NewRecovered"])
     total_recovered_MZ=(summary["Countries"][115]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Mozambique'
-   '\nNew Confirmed : '+str(new_confirmed_MZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_MZ)+
-   '\nNew Deaths : '+str(new_deaths_MZ)+
-   '\nTotal Deaths : '+str(total_deaths_MZ)+
-   '\nNew Recovered : '+str(new_recovered_MZ)+
-   '\nTotal Recovered : '+str(total_recovered_MZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Mozambique</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MZ)+'</pre>',parse_mode='HTML')
 def MM(update, context):
     new_confirmed_MM=(summary["Countries"][116]["NewConfirmed"])
     total_confirmed_MM=(summary["Countries"][116]["TotalConfirmed"])
@@ -1967,14 +1854,13 @@ def MM(update, context):
     total_deaths_MM=(summary["Countries"][116]["TotalDeaths"])
     new_recovered_MM=(summary["Countries"][116]["NewRecovered"])
     total_recovered_MM=(summary["Countries"][116]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Myanmar'
-   '\nNew Confirmed : '+str(new_confirmed_MM)+
-   '\nTotal Confirmed : '+str(total_confirmed_MM)+
-   '\nNew Deaths : '+str(new_deaths_MM)+
-   '\nTotal Deaths : '+str(total_deaths_MM)+
-   '\nNew Recovered : '+str(new_recovered_MM)+
-   '\nTotal Recovered : '+str(total_recovered_MM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Myanmar</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_MM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_MM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_MM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_MM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_MM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_MM)+'</pre>',parse_mode='HTML')
 def NA(update, context):
     new_confirmed_NA=(summary["Countries"][117]["NewConfirmed"])
     total_confirmed_NA=(summary["Countries"][117]["TotalConfirmed"])
@@ -1982,14 +1868,13 @@ def NA(update, context):
     total_deaths_NA=(summary["Countries"][117]["TotalDeaths"])
     new_recovered_NA=(summary["Countries"][117]["NewRecovered"])
     total_recovered_NA=(summary["Countries"][117]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Namibia'
-   '\nNew Confirmed : '+str(new_confirmed_NA)+
-   '\nTotal Confirmed : '+str(total_confirmed_NA)+
-   '\nNew Deaths : '+str(new_deaths_NA)+
-   '\nTotal Deaths : '+str(total_deaths_NA)+
-   '\nNew Recovered : '+str(new_recovered_NA)+
-   '\nTotal Recovered : '+str(total_recovered_NA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Namibia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NA)+'</pre>',parse_mode='HTML')
 def NP(update, context):
     new_confirmed_NP=(summary["Countries"][118]["NewConfirmed"])
     total_confirmed_NP=(summary["Countries"][118]["TotalConfirmed"])
@@ -1997,14 +1882,13 @@ def NP(update, context):
     total_deaths_NP=(summary["Countries"][118]["TotalDeaths"])
     new_recovered_NP=(summary["Countries"][118]["NewRecovered"])
     total_recovered_NP=(summary["Countries"][118]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Nepal'
-   '\nNew Confirmed : '+str(new_confirmed_NP)+
-   '\nTotal Confirmed : '+str(total_confirmed_NP)+
-   '\nNew Deaths : '+str(new_deaths_NP)+
-   '\nTotal Deaths : '+str(total_deaths_NP)+
-   '\nNew Recovered : '+str(new_recovered_NP)+
-   '\nTotal Recovered : '+str(total_recovered_NP))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Nepal</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NP)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NP)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NP)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NP)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NP)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NP)+'</pre>',parse_mode='HTML')
 def NL(update, context):
     new_confirmed_NL=(summary["Countries"][119]["NewConfirmed"])
     total_confirmed_NL=(summary["Countries"][119]["TotalConfirmed"])
@@ -2012,14 +1896,13 @@ def NL(update, context):
     total_deaths_NL=(summary["Countries"][119]["TotalDeaths"])
     new_recovered_NL=(summary["Countries"][119]["NewRecovered"])
     total_recovered_NL=(summary["Countries"][119]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Netherlands'
-   '\nNew Confirmed : '+str(new_confirmed_NL)+
-   '\nTotal Confirmed : '+str(total_confirmed_NL)+
-   '\nNew Deaths : '+str(new_deaths_NL)+
-   '\nTotal Deaths : '+str(total_deaths_NL)+
-   '\nNew Recovered : '+str(new_recovered_NL)+
-   '\nTotal Recovered : '+str(total_recovered_NL))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Netherlands</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NL)+'</pre>',parse_mode='HTML')
 def NZ(update, context):
     new_confirmed_NZ=(summary["Countries"][120]["NewConfirmed"])
     total_confirmed_NZ=(summary["Countries"][120]["TotalConfirmed"])
@@ -2027,14 +1910,13 @@ def NZ(update, context):
     total_deaths_NZ=(summary["Countries"][120]["TotalDeaths"])
     new_recovered_NZ=(summary["Countries"][120]["NewRecovered"])
     total_recovered_NZ=(summary["Countries"][120]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': New Zealand'
-   '\nNew Confirmed : '+str(new_confirmed_NZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_NZ)+
-   '\nNew Deaths : '+str(new_deaths_NZ)+
-   '\nTotal Deaths : '+str(total_deaths_NZ)+
-   '\nNew Recovered : '+str(new_recovered_NZ)+
-   '\nTotal Recovered : '+str(total_recovered_NZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>New Zealand</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NZ)+'</pre>',parse_mode='HTML')
 def NI(update, context):
     new_confirmed_NI=(summary["Countries"][121]["NewConfirmed"])
     total_confirmed_NI=(summary["Countries"][121]["TotalConfirmed"])
@@ -2042,14 +1924,13 @@ def NI(update, context):
     total_deaths_NI=(summary["Countries"][121]["TotalDeaths"])
     new_recovered_NI=(summary["Countries"][121]["NewRecovered"])
     total_recovered_NI=(summary["Countries"][121]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Nicaragua'
-   '\nNew Confirmed : '+str(new_confirmed_NI)+
-   '\nTotal Confirmed : '+str(total_confirmed_NI)+
-   '\nNew Deaths : '+str(new_deaths_NI)+
-   '\nTotal Deaths : '+str(total_deaths_NI)+
-   '\nNew Recovered : '+str(new_recovered_NI)+
-   '\nTotal Recovered : '+str(total_recovered_NI))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Nicaragua</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NI)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NI)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NI)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NI)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NI)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NI)+'</pre>',parse_mode='HTML')
 def NE(update, context):
     new_confirmed_NE=(summary["Countries"][122]["NewConfirmed"])
     total_confirmed_NE=(summary["Countries"][122]["TotalConfirmed"])
@@ -2057,14 +1938,13 @@ def NE(update, context):
     total_deaths_NE=(summary["Countries"][122]["TotalDeaths"])
     new_recovered_NE=(summary["Countries"][122]["NewRecovered"])
     total_recovered_NE=(summary["Countries"][122]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Niger'
-   '\nNew Confirmed : '+str(new_confirmed_NE)+
-   '\nTotal Confirmed : '+str(total_confirmed_NE)+
-   '\nNew Deaths : '+str(new_deaths_NE)+
-   '\nTotal Deaths : '+str(total_deaths_NE)+
-   '\nNew Recovered : '+str(new_recovered_NE)+
-   '\nTotal Recovered : '+str(total_recovered_NE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Niger</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NE)+'</pre>',parse_mode='HTML')
 def NG(update, context):
     new_confirmed_NG=(summary["Countries"][123]["NewConfirmed"])
     total_confirmed_NG=(summary["Countries"][123]["TotalConfirmed"])
@@ -2072,14 +1952,13 @@ def NG(update, context):
     total_deaths_NG=(summary["Countries"][123]["TotalDeaths"])
     new_recovered_NG=(summary["Countries"][123]["NewRecovered"])
     total_recovered_NG=(summary["Countries"][123]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Nigeria'
-   '\nNew Confirmed : '+str(new_confirmed_NG)+
-   '\nTotal Confirmed : '+str(total_confirmed_NG)+
-   '\nNew Deaths : '+str(new_deaths_NG)+
-   '\nTotal Deaths : '+str(total_deaths_NG)+
-   '\nNew Recovered : '+str(new_recovered_NG)+
-   '\nTotal Recovered : '+str(total_recovered_NG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Nigeria</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NG)+'</pre>',parse_mode='HTML')
 def NO(update, context):
     new_confirmed_NO=(summary["Countries"][124]["NewConfirmed"])
     total_confirmed_NO=(summary["Countries"][124]["TotalConfirmed"])
@@ -2087,14 +1966,13 @@ def NO(update, context):
     total_deaths_NO=(summary["Countries"][124]["TotalDeaths"])
     new_recovered_NO=(summary["Countries"][124]["NewRecovered"])
     total_recovered_NO=(summary["Countries"][124]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Norway'
-   '\nNew Confirmed : '+str(new_confirmed_NO)+
-   '\nTotal Confirmed : '+str(total_confirmed_NO)+
-   '\nNew Deaths : '+str(new_deaths_NO)+
-   '\nTotal Deaths : '+str(total_deaths_NO)+
-   '\nNew Recovered : '+str(new_recovered_NO)+
-   '\nTotal Recovered : '+str(total_recovered_NO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Norway</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_NO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_NO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_NO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_NO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_NO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_NO)+'</pre>',parse_mode='HTML')
 def OM(update, context):
     new_confirmed_OM=(summary["Countries"][125]["NewConfirmed"])
     total_confirmed_OM=(summary["Countries"][125]["TotalConfirmed"])
@@ -2102,14 +1980,13 @@ def OM(update, context):
     total_deaths_OM=(summary["Countries"][125]["TotalDeaths"])
     new_recovered_OM=(summary["Countries"][125]["NewRecovered"])
     total_recovered_OM=(summary["Countries"][125]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Oman'
-   '\nNew Confirmed : '+str(new_confirmed_OM)+
-   '\nTotal Confirmed : '+str(total_confirmed_OM)+
-   '\nNew Deaths : '+str(new_deaths_OM)+
-   '\nTotal Deaths : '+str(total_deaths_OM)+
-   '\nNew Recovered : '+str(new_recovered_OM)+
-   '\nTotal Recovered : '+str(total_recovered_OM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Oman</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_OM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_OM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_OM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_OM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_OM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_OM)+'</pre>',parse_mode='HTML')
 def PK(update, context):
     new_confirmed_PK=(summary["Countries"][126]["NewConfirmed"])
     total_confirmed_PK=(summary["Countries"][126]["TotalConfirmed"])
@@ -2117,14 +1994,13 @@ def PK(update, context):
     total_deaths_PK=(summary["Countries"][126]["TotalDeaths"])
     new_recovered_PK=(summary["Countries"][126]["NewRecovered"])
     total_recovered_PK=(summary["Countries"][126]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Pakistan'
-   '\nNew Confirmed : '+str(new_confirmed_PK)+
-   '\nTotal Confirmed : '+str(total_confirmed_PK)+
-   '\nNew Deaths : '+str(new_deaths_PK)+
-   '\nTotal Deaths : '+str(total_deaths_PK)+
-   '\nNew Recovered : '+str(new_recovered_PK)+
-   '\nTotal Recovered : '+str(total_recovered_PK))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Pakistan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PK)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PK)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PK)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PK)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PK)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PK)+'</pre>',parse_mode='HTML')
 def PS(update, context):
     new_confirmed_PS=(summary["Countries"][127]["NewConfirmed"])
     total_confirmed_PS=(summary["Countries"][127]["TotalConfirmed"])
@@ -2132,14 +2008,13 @@ def PS(update, context):
     total_deaths_PS=(summary["Countries"][127]["TotalDeaths"])
     new_recovered_PS=(summary["Countries"][127]["NewRecovered"])
     total_recovered_PS=(summary["Countries"][127]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Palestinian Territory'
-   '\nNew Confirmed : '+str(new_confirmed_PS)+
-   '\nTotal Confirmed : '+str(total_confirmed_PS)+
-   '\nNew Deaths : '+str(new_deaths_PS)+
-   '\nTotal Deaths : '+str(total_deaths_PS)+
-   '\nNew Recovered : '+str(new_recovered_PS)+
-   '\nTotal Recovered : '+str(total_recovered_PS))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Palestinian Territory</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PS)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PS)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PS)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PS)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PS)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PS)+'</pre>',parse_mode='HTML')
 def PA(update, context):
     new_confirmed_PA=(summary["Countries"][128]["NewConfirmed"])
     total_confirmed_PA=(summary["Countries"][128]["TotalConfirmed"])
@@ -2147,14 +2022,13 @@ def PA(update, context):
     total_deaths_PA=(summary["Countries"][128]["TotalDeaths"])
     new_recovered_PA=(summary["Countries"][128]["NewRecovered"])
     total_recovered_PA=(summary["Countries"][128]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Panama'
-   '\nNew Confirmed : '+str(new_confirmed_PA)+
-   '\nTotal Confirmed : '+str(total_confirmed_PA)+
-   '\nNew Deaths : '+str(new_deaths_PA)+
-   '\nTotal Deaths : '+str(total_deaths_PA)+
-   '\nNew Recovered : '+str(new_recovered_PA)+
-   '\nTotal Recovered : '+str(total_recovered_PA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Panama</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PA)+'</pre>',parse_mode='HTML')
 def PG(update, context):
     new_confirmed_PG=(summary["Countries"][129]["NewConfirmed"])
     total_confirmed_PG=(summary["Countries"][129]["TotalConfirmed"])
@@ -2162,14 +2036,13 @@ def PG(update, context):
     total_deaths_PG=(summary["Countries"][129]["TotalDeaths"])
     new_recovered_PG=(summary["Countries"][129]["NewRecovered"])
     total_recovered_PG=(summary["Countries"][129]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Papua New Guinea'
-   '\nNew Confirmed : '+str(new_confirmed_PG)+
-   '\nTotal Confirmed : '+str(total_confirmed_PG)+
-   '\nNew Deaths : '+str(new_deaths_PG)+
-   '\nTotal Deaths : '+str(total_deaths_PG)+
-   '\nNew Recovered : '+str(new_recovered_PG)+
-   '\nTotal Recovered : '+str(total_recovered_PG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Papua New Guinea</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PG)+'</pre>',parse_mode='HTML')
 def PY(update, context):
     new_confirmed_PY=(summary["Countries"][130]["NewConfirmed"])
     total_confirmed_PY=(summary["Countries"][130]["TotalConfirmed"])
@@ -2177,14 +2050,13 @@ def PY(update, context):
     total_deaths_PY=(summary["Countries"][130]["TotalDeaths"])
     new_recovered_PY=(summary["Countries"][130]["NewRecovered"])
     total_recovered_PY=(summary["Countries"][130]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Paraguay'
-   '\nNew Confirmed : '+str(new_confirmed_PY)+
-   '\nTotal Confirmed : '+str(total_confirmed_PY)+
-   '\nNew Deaths : '+str(new_deaths_PY)+
-   '\nTotal Deaths : '+str(total_deaths_PY)+
-   '\nNew Recovered : '+str(new_recovered_PY)+
-   '\nTotal Recovered : '+str(total_recovered_PY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Paraguay</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PY)+'</pre>',parse_mode='HTML')
 def PE(update, context):
     new_confirmed_PE=(summary["Countries"][131]["NewConfirmed"])
     total_confirmed_PE=(summary["Countries"][131]["TotalConfirmed"])
@@ -2192,14 +2064,13 @@ def PE(update, context):
     total_deaths_PE=(summary["Countries"][131]["TotalDeaths"])
     new_recovered_PE=(summary["Countries"][131]["NewRecovered"])
     total_recovered_PE=(summary["Countries"][131]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Peru'
-   '\nNew Confirmed : '+str(new_confirmed_PE)+
-   '\nTotal Confirmed : '+str(total_confirmed_PE)+
-   '\nNew Deaths : '+str(new_deaths_PE)+
-   '\nTotal Deaths : '+str(total_deaths_PE)+
-   '\nNew Recovered : '+str(new_recovered_PE)+
-   '\nTotal Recovered : '+str(total_recovered_PE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Peru</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PE)+'</pre>',parse_mode='HTML')
 def PH(update, context):
     new_confirmed_PH=(summary["Countries"][132]["NewConfirmed"])
     total_confirmed_PH=(summary["Countries"][132]["TotalConfirmed"])
@@ -2207,14 +2078,13 @@ def PH(update, context):
     total_deaths_PH=(summary["Countries"][132]["TotalDeaths"])
     new_recovered_PH=(summary["Countries"][132]["NewRecovered"])
     total_recovered_PH=(summary["Countries"][132]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Philippines'
-   '\nNew Confirmed : '+str(new_confirmed_PH)+
-   '\nTotal Confirmed : '+str(total_confirmed_PH)+
-   '\nNew Deaths : '+str(new_deaths_PH)+
-   '\nTotal Deaths : '+str(total_deaths_PH)+
-   '\nNew Recovered : '+str(new_recovered_PH)+
-   '\nTotal Recovered : '+str(total_recovered_PH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Philippines</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PH)+'</pre>',parse_mode='HTML')
 def PL(update, context):
     new_confirmed_PL=(summary["Countries"][133]["NewConfirmed"])
     total_confirmed_PL=(summary["Countries"][133]["TotalConfirmed"])
@@ -2222,14 +2092,13 @@ def PL(update, context):
     total_deaths_PL=(summary["Countries"][133]["TotalDeaths"])
     new_recovered_PL=(summary["Countries"][133]["NewRecovered"])
     total_recovered_PL=(summary["Countries"][133]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Poland'
-   '\nNew Confirmed : '+str(new_confirmed_PL)+
-   '\nTotal Confirmed : '+str(total_confirmed_PL)+
-   '\nNew Deaths : '+str(new_deaths_PL)+
-   '\nTotal Deaths : '+str(total_deaths_PL)+
-   '\nNew Recovered : '+str(new_recovered_PL)+
-   '\nTotal Recovered : '+str(total_recovered_PL))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Poland</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PL)+'</pre>',parse_mode='HTML')
 def PT(update, context):
     new_confirmed_PT=(summary["Countries"][134]["NewConfirmed"])
     total_confirmed_PT=(summary["Countries"][134]["TotalConfirmed"])
@@ -2237,14 +2106,13 @@ def PT(update, context):
     total_deaths_PT=(summary["Countries"][134]["TotalDeaths"])
     new_recovered_PT=(summary["Countries"][134]["NewRecovered"])
     total_recovered_PT=(summary["Countries"][134]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Portugal'
-   '\nNew Confirmed : '+str(new_confirmed_PT)+
-   '\nTotal Confirmed : '+str(total_confirmed_PT)+
-   '\nNew Deaths : '+str(new_deaths_PT)+
-   '\nTotal Deaths : '+str(total_deaths_PT)+
-   '\nNew Recovered : '+str(new_recovered_PT)+
-   '\nTotal Recovered : '+str(total_recovered_PT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Portugal</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_PT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_PT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_PT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_PT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_PT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_PT)+'</pre>',parse_mode='HTML')
 def QA(update, context):
     new_confirmed_QA=(summary["Countries"][135]["NewConfirmed"])
     total_confirmed_QA=(summary["Countries"][135]["TotalConfirmed"])
@@ -2252,14 +2120,13 @@ def QA(update, context):
     total_deaths_QA=(summary["Countries"][135]["TotalDeaths"])
     new_recovered_QA=(summary["Countries"][135]["NewRecovered"])
     total_recovered_QA=(summary["Countries"][135]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Qatar'
-   '\nNew Confirmed : '+str(new_confirmed_QA)+
-   '\nTotal Confirmed : '+str(total_confirmed_QA)+
-   '\nNew Deaths : '+str(new_deaths_QA)+
-   '\nTotal Deaths : '+str(total_deaths_QA)+
-   '\nNew Recovered : '+str(new_recovered_QA)+
-   '\nTotal Recovered : '+str(total_recovered_QA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Qatar</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_QA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_QA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_QA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_QA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_QA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_QA)+'</pre>',parse_mode='HTML')
 def XK(update, context):
     new_confirmed_XK=(summary["Countries"][136]["NewConfirmed"])
     total_confirmed_XK=(summary["Countries"][136]["TotalConfirmed"])
@@ -2267,14 +2134,13 @@ def XK(update, context):
     total_deaths_XK=(summary["Countries"][136]["TotalDeaths"])
     new_recovered_XK=(summary["Countries"][136]["NewRecovered"])
     total_recovered_XK=(summary["Countries"][136]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Republic of Kosovo'
-   '\nNew Confirmed : '+str(new_confirmed_XK)+
-   '\nTotal Confirmed : '+str(total_confirmed_XK)+
-   '\nNew Deaths : '+str(new_deaths_XK)+
-   '\nTotal Deaths : '+str(total_deaths_XK)+
-   '\nNew Recovered : '+str(new_recovered_XK)+
-   '\nTotal Recovered : '+str(total_recovered_XK))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Republic of Kosovo</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_XK)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_XK)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_XK)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_XK)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_XK)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_XK)+'</pre>',parse_mode='HTML')
 def RO(update, context):
     new_confirmed_RO=(summary["Countries"][137]["NewConfirmed"])
     total_confirmed_RO=(summary["Countries"][137]["TotalConfirmed"])
@@ -2282,14 +2148,13 @@ def RO(update, context):
     total_deaths_RO=(summary["Countries"][137]["TotalDeaths"])
     new_recovered_RO=(summary["Countries"][137]["NewRecovered"])
     total_recovered_RO=(summary["Countries"][137]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Romania'
-   '\nNew Confirmed : '+str(new_confirmed_RO)+
-   '\nTotal Confirmed : '+str(total_confirmed_RO)+
-   '\nNew Deaths : '+str(new_deaths_RO)+
-   '\nTotal Deaths : '+str(total_deaths_RO)+
-   '\nNew Recovered : '+str(new_recovered_RO)+
-   '\nTotal Recovered : '+str(total_recovered_RO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Romania</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_RO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_RO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_RO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_RO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_RO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_RO)+'</pre>',parse_mode='HTML')
 def RU(update, context):
     new_confirmed_RU=(summary["Countries"][138]["NewConfirmed"])
     total_confirmed_RU=(summary["Countries"][138]["TotalConfirmed"])
@@ -2297,14 +2162,13 @@ def RU(update, context):
     total_deaths_RU=(summary["Countries"][138]["TotalDeaths"])
     new_recovered_RU=(summary["Countries"][138]["NewRecovered"])
     total_recovered_RU=(summary["Countries"][138]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Russian Federation'
-   '\nNew Confirmed : '+str(new_confirmed_RU)+
-   '\nTotal Confirmed : '+str(total_confirmed_RU)+
-   '\nNew Deaths : '+str(new_deaths_RU)+
-   '\nTotal Deaths : '+str(total_deaths_RU)+
-   '\nNew Recovered : '+str(new_recovered_RU)+
-   '\nTotal Recovered : '+str(total_recovered_RU))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Russian Federation</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_RU)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_RU)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_RU)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_RU)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_RU)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_RU)+'</pre>',parse_mode='HTML')
 def RW(update, context):
     new_confirmed_RW=(summary["Countries"][139]["NewConfirmed"])
     total_confirmed_RW=(summary["Countries"][139]["TotalConfirmed"])
@@ -2312,14 +2176,13 @@ def RW(update, context):
     total_deaths_RW=(summary["Countries"][139]["TotalDeaths"])
     new_recovered_RW=(summary["Countries"][139]["NewRecovered"])
     total_recovered_RW=(summary["Countries"][139]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Rwanda'
-   '\nNew Confirmed : '+str(new_confirmed_RW)+
-   '\nTotal Confirmed : '+str(total_confirmed_RW)+
-   '\nNew Deaths : '+str(new_deaths_RW)+
-   '\nTotal Deaths : '+str(total_deaths_RW)+
-   '\nNew Recovered : '+str(new_recovered_RW)+
-   '\nTotal Recovered : '+str(total_recovered_RW))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Rwanda</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_RW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_RW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_RW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_RW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_RW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_RW)+'</pre>',parse_mode='HTML')
 def KN(update, context):
     new_confirmed_KN=(summary["Countries"][140]["NewConfirmed"])
     total_confirmed_KN=(summary["Countries"][140]["TotalConfirmed"])
@@ -2327,14 +2190,13 @@ def KN(update, context):
     total_deaths_KN=(summary["Countries"][140]["TotalDeaths"])
     new_recovered_KN=(summary["Countries"][140]["NewRecovered"])
     total_recovered_KN=(summary["Countries"][140]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Saint Kitts and Nevis'
-   '\nNew Confirmed : '+str(new_confirmed_KN)+
-   '\nTotal Confirmed : '+str(total_confirmed_KN)+
-   '\nNew Deaths : '+str(new_deaths_KN)+
-   '\nTotal Deaths : '+str(total_deaths_KN)+
-   '\nNew Recovered : '+str(new_recovered_KN)+
-   '\nTotal Recovered : '+str(total_recovered_KN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Saint Kitts and Nevis</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_KN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_KN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_KN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_KN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_KN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_KN)+'</pre>',parse_mode='HTML')
 def LC(update, context):
     new_confirmed_LC=(summary["Countries"][141]["NewConfirmed"])
     total_confirmed_LC=(summary["Countries"][141]["TotalConfirmed"])
@@ -2342,14 +2204,13 @@ def LC(update, context):
     total_deaths_LC=(summary["Countries"][141]["TotalDeaths"])
     new_recovered_LC=(summary["Countries"][141]["NewRecovered"])
     total_recovered_LC=(summary["Countries"][141]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Saint Lucia'
-   '\nNew Confirmed : '+str(new_confirmed_LC)+
-   '\nTotal Confirmed : '+str(total_confirmed_LC)+
-   '\nNew Deaths : '+str(new_deaths_LC)+
-   '\nTotal Deaths : '+str(total_deaths_LC)+
-   '\nNew Recovered : '+str(new_recovered_LC)+
-   '\nTotal Recovered : '+str(total_recovered_LC))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Saint Lucia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LC)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LC)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LC)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LC)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LC)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LC)+'</pre>',parse_mode='HTML')
 def VC(update, context):
     new_confirmed_VC=(summary["Countries"][142]["NewConfirmed"])
     total_confirmed_VC=(summary["Countries"][142]["TotalConfirmed"])
@@ -2357,14 +2218,13 @@ def VC(update, context):
     total_deaths_VC=(summary["Countries"][142]["TotalDeaths"])
     new_recovered_VC=(summary["Countries"][142]["NewRecovered"])
     total_recovered_VC=(summary["Countries"][142]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Saint Vincent and Grenadines'
-   '\nNew Confirmed : '+str(new_confirmed_VC)+
-   '\nTotal Confirmed : '+str(total_confirmed_VC)+
-   '\nNew Deaths : '+str(new_deaths_VC)+
-   '\nTotal Deaths : '+str(total_deaths_VC)+
-   '\nNew Recovered : '+str(new_recovered_VC)+
-   '\nTotal Recovered : '+str(total_recovered_VC))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Saint Vincent and Grenadines</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_VC)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_VC)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_VC)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_VC)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_VC)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_VC)+'</pre>',parse_mode='HTML')
 def SM(update, context):
     new_confirmed_SM=(summary["Countries"][143]["NewConfirmed"])
     total_confirmed_SM=(summary["Countries"][143]["TotalConfirmed"])
@@ -2372,14 +2232,13 @@ def SM(update, context):
     total_deaths_SM=(summary["Countries"][143]["TotalDeaths"])
     new_recovered_SM=(summary["Countries"][143]["NewRecovered"])
     total_recovered_SM=(summary["Countries"][143]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': San Marino'
-   '\nNew Confirmed : '+str(new_confirmed_SM)+
-   '\nTotal Confirmed : '+str(total_confirmed_SM)+
-   '\nNew Deaths : '+str(new_deaths_SM)+
-   '\nTotal Deaths : '+str(total_deaths_SM)+
-   '\nNew Recovered : '+str(new_recovered_SM)+
-   '\nTotal Recovered : '+str(total_recovered_SM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>San Marino</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SM)+'</pre>',parse_mode='HTML')
 def ST(update, context):
     new_confirmed_ST=(summary["Countries"][144]["NewConfirmed"])
     total_confirmed_ST=(summary["Countries"][144]["TotalConfirmed"])
@@ -2387,14 +2246,13 @@ def ST(update, context):
     total_deaths_ST=(summary["Countries"][144]["TotalDeaths"])
     new_recovered_ST=(summary["Countries"][144]["NewRecovered"])
     total_recovered_ST=(summary["Countries"][144]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Sao Tome and Principe'
-   '\nNew Confirmed : '+str(new_confirmed_ST)+
-   '\nTotal Confirmed : '+str(total_confirmed_ST)+
-   '\nNew Deaths : '+str(new_deaths_ST)+
-   '\nTotal Deaths : '+str(total_deaths_ST)+
-   '\nNew Recovered : '+str(new_recovered_ST)+
-   '\nTotal Recovered : '+str(total_recovered_ST))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Sao Tome and Principe</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ST)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ST)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ST)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ST)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ST)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ST)+'</pre>',parse_mode='HTML')
 def SA(update, context):
     new_confirmed_SA=(summary["Countries"][145]["NewConfirmed"])
     total_confirmed_SA=(summary["Countries"][145]["TotalConfirmed"])
@@ -2402,14 +2260,13 @@ def SA(update, context):
     total_deaths_SA=(summary["Countries"][145]["TotalDeaths"])
     new_recovered_SA=(summary["Countries"][145]["NewRecovered"])
     total_recovered_SA=(summary["Countries"][145]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Saudi Arabia'
-   '\nNew Confirmed : '+str(new_confirmed_SA)+
-   '\nTotal Confirmed : '+str(total_confirmed_SA)+
-   '\nNew Deaths : '+str(new_deaths_SA)+
-   '\nTotal Deaths : '+str(total_deaths_SA)+
-   '\nNew Recovered : '+str(new_recovered_SA)+
-   '\nTotal Recovered : '+str(total_recovered_SA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Saudi Arabia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SA)+'</pre>',parse_mode='HTML')
 def SN(update, context):
     new_confirmed_SN=(summary["Countries"][146]["NewConfirmed"])
     total_confirmed_SN=(summary["Countries"][146]["TotalConfirmed"])
@@ -2417,14 +2274,13 @@ def SN(update, context):
     total_deaths_SN=(summary["Countries"][146]["TotalDeaths"])
     new_recovered_SN=(summary["Countries"][146]["NewRecovered"])
     total_recovered_SN=(summary["Countries"][146]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Senegal'
-   '\nNew Confirmed : '+str(new_confirmed_SN)+
-   '\nTotal Confirmed : '+str(total_confirmed_SN)+
-   '\nNew Deaths : '+str(new_deaths_SN)+
-   '\nTotal Deaths : '+str(total_deaths_SN)+
-   '\nNew Recovered : '+str(new_recovered_SN)+
-   '\nTotal Recovered : '+str(total_recovered_SN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Senegal</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SN)+'</pre>',parse_mode='HTML')
 def RS(update, context):
     new_confirmed_RS=(summary["Countries"][147]["NewConfirmed"])
     total_confirmed_RS=(summary["Countries"][147]["TotalConfirmed"])
@@ -2432,14 +2288,13 @@ def RS(update, context):
     total_deaths_RS=(summary["Countries"][147]["TotalDeaths"])
     new_recovered_RS=(summary["Countries"][147]["NewRecovered"])
     total_recovered_RS=(summary["Countries"][147]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Serbia'
-   '\nNew Confirmed : '+str(new_confirmed_RS)+
-   '\nTotal Confirmed : '+str(total_confirmed_RS)+
-   '\nNew Deaths : '+str(new_deaths_RS)+
-   '\nTotal Deaths : '+str(total_deaths_RS)+
-   '\nNew Recovered : '+str(new_recovered_RS)+
-   '\nTotal Recovered : '+str(total_recovered_RS))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Serbia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_RS)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_RS)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_RS)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_RS)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_RS)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_RS)+'</pre>',parse_mode='HTML')
 def SC(update, context):
     new_confirmed_SC=(summary["Countries"][148]["NewConfirmed"])
     total_confirmed_SC=(summary["Countries"][148]["TotalConfirmed"])
@@ -2447,14 +2302,13 @@ def SC(update, context):
     total_deaths_SC=(summary["Countries"][148]["TotalDeaths"])
     new_recovered_SC=(summary["Countries"][148]["NewRecovered"])
     total_recovered_SC=(summary["Countries"][148]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Seychelles'
-   '\nNew Confirmed : '+str(new_confirmed_SC)+
-   '\nTotal Confirmed : '+str(total_confirmed_SC)+
-   '\nNew Deaths : '+str(new_deaths_SC)+
-   '\nTotal Deaths : '+str(total_deaths_SC)+
-   '\nNew Recovered : '+str(new_recovered_SC)+
-   '\nTotal Recovered : '+str(total_recovered_SC))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Seychelles</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SC)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SC)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SC)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SC)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SC)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SC)+'</pre>',parse_mode='HTML')
 def SL(update, context):
     new_confirmed_SL=(summary["Countries"][149]["NewConfirmed"])
     total_confirmed_SL=(summary["Countries"][149]["TotalConfirmed"])
@@ -2462,29 +2316,28 @@ def SL(update, context):
     total_deaths_SL=(summary["Countries"][149]["TotalDeaths"])
     new_recovered_SL=(summary["Countries"][149]["NewRecovered"])
     total_recovered_SL=(summary["Countries"][149]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Sierra Leone'
-   '\nNew Confirmed : '+str(new_confirmed_SL)+
-   '\nTotal Confirmed : '+str(total_confirmed_SL)+
-   '\nNew Deaths : '+str(new_deaths_SL)+
-   '\nTotal Deaths : '+str(total_deaths_SL)+
-   '\nNew Recovered : '+str(new_recovered_SL)+
-   '\nTotal Recovered : '+str(total_recovered_SL))
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Sierra Leone</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SL)+'</pre>',parse_mode='HTML')
 
 def SG(update, context):
-    new_confirmed_SG=(summary["Countries"][150]["NewConfirmed"])    
+    new_confirmed_SG=(summary["Countries"][150]["NewConfirmed"])
     total_confirmed_SG=(summary["Countries"][150]["TotalConfirmed"])
     new_deaths_SG=(summary["Countries"][150]["NewDeaths"])
-    total_deaths_SG=(summary["Countries"][150]["TotalDeaths"])      
-    new_recovered_SG=(summary["Countries"][150]["NewRecovered"])    
+    total_deaths_SG=(summary["Countries"][150]["TotalDeaths"])
+    new_recovered_SG=(summary["Countries"][150]["NewRecovered"])
     total_recovered_SG=(summary["Countries"][150]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Singapore'
-   '\nNew Confirmed : '+str(new_confirmed_SG)+
-   '\nTotal Confirmed : '+str(total_confirmed_SG)+
-   '\nNew Deaths : '+str(new_deaths_SG)+
-   '\nTotal Deaths : '+str(total_deaths_SG)+
-   '\nNew Recovered : '+str(new_recovered_SG)+
-   '\nTotal Recovered : '+str(total_recovered_SG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Singapore</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SG)+'</pre>'     
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SG)+'</pre>',parse_mode='HTML')
 def SK(update, context):
     new_confirmed_SK=(summary["Countries"][151]["NewConfirmed"])
     total_confirmed_SK=(summary["Countries"][151]["TotalConfirmed"])
@@ -2492,14 +2345,13 @@ def SK(update, context):
     total_deaths_SK=(summary["Countries"][151]["TotalDeaths"])
     new_recovered_SK=(summary["Countries"][151]["NewRecovered"])
     total_recovered_SK=(summary["Countries"][151]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Slovakia'
-   '\nNew Confirmed : '+str(new_confirmed_SK)+
-   '\nTotal Confirmed : '+str(total_confirmed_SK)+
-   '\nNew Deaths : '+str(new_deaths_SK)+
-   '\nTotal Deaths : '+str(total_deaths_SK)+
-   '\nNew Recovered : '+str(new_recovered_SK)+
-   '\nTotal Recovered : '+str(total_recovered_SK))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Slovakia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SK)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SK)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SK)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SK)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SK)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SK)+'</pre>',parse_mode='HTML')
 def SI(update, context):
     new_confirmed_SI=(summary["Countries"][152]["NewConfirmed"])
     total_confirmed_SI=(summary["Countries"][152]["TotalConfirmed"])
@@ -2507,14 +2359,13 @@ def SI(update, context):
     total_deaths_SI=(summary["Countries"][152]["TotalDeaths"])
     new_recovered_SI=(summary["Countries"][152]["NewRecovered"])
     total_recovered_SI=(summary["Countries"][152]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Slovenia'
-   '\nNew Confirmed : '+str(new_confirmed_SI)+
-   '\nTotal Confirmed : '+str(total_confirmed_SI)+
-   '\nNew Deaths : '+str(new_deaths_SI)+
-   '\nTotal Deaths : '+str(total_deaths_SI)+
-   '\nNew Recovered : '+str(new_recovered_SI)+
-   '\nTotal Recovered : '+str(total_recovered_SI))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Slovenia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SI)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SI)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SI)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SI)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SI)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SI)+'</pre>',parse_mode='HTML')
 def SO(update, context):
     new_confirmed_SO=(summary["Countries"][153]["NewConfirmed"])
     total_confirmed_SO=(summary["Countries"][153]["TotalConfirmed"])
@@ -2522,14 +2373,13 @@ def SO(update, context):
     total_deaths_SO=(summary["Countries"][153]["TotalDeaths"])
     new_recovered_SO=(summary["Countries"][153]["NewRecovered"])
     total_recovered_SO=(summary["Countries"][153]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Somalia'
-   '\nNew Confirmed : '+str(new_confirmed_SO)+
-   '\nTotal Confirmed : '+str(total_confirmed_SO)+
-   '\nNew Deaths : '+str(new_deaths_SO)+
-   '\nTotal Deaths : '+str(total_deaths_SO)+
-   '\nNew Recovered : '+str(new_recovered_SO)+
-   '\nTotal Recovered : '+str(total_recovered_SO))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Somalia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SO)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SO)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SO)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SO)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SO)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SO)+'</pre>',parse_mode='HTML')
 def ZA(update, context):
     new_confirmed_ZA=(summary["Countries"][154]["NewConfirmed"])
     total_confirmed_ZA=(summary["Countries"][154]["TotalConfirmed"])
@@ -2537,14 +2387,13 @@ def ZA(update, context):
     total_deaths_ZA=(summary["Countries"][154]["TotalDeaths"])
     new_recovered_ZA=(summary["Countries"][154]["NewRecovered"])
     total_recovered_ZA=(summary["Countries"][154]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': South Africa'
-   '\nNew Confirmed : '+str(new_confirmed_ZA)+
-   '\nTotal Confirmed : '+str(total_confirmed_ZA)+
-   '\nNew Deaths : '+str(new_deaths_ZA)+
-   '\nTotal Deaths : '+str(total_deaths_ZA)+
-   '\nNew Recovered : '+str(new_recovered_ZA)+
-   '\nTotal Recovered : '+str(total_recovered_ZA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>South Africa</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ZA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ZA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ZA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ZA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ZA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ZA)+'</pre>',parse_mode='HTML')
 def SS(update, context):
     new_confirmed_SS=(summary["Countries"][155]["NewConfirmed"])
     total_confirmed_SS=(summary["Countries"][155]["TotalConfirmed"])
@@ -2552,14 +2401,13 @@ def SS(update, context):
     total_deaths_SS=(summary["Countries"][155]["TotalDeaths"])
     new_recovered_SS=(summary["Countries"][155]["NewRecovered"])
     total_recovered_SS=(summary["Countries"][155]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': South Sudan'
-   '\nNew Confirmed : '+str(new_confirmed_SS)+
-   '\nTotal Confirmed : '+str(total_confirmed_SS)+
-   '\nNew Deaths : '+str(new_deaths_SS)+
-   '\nTotal Deaths : '+str(total_deaths_SS)+
-   '\nNew Recovered : '+str(new_recovered_SS)+
-   '\nTotal Recovered : '+str(total_recovered_SS))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>South Sudan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SS)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SS)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SS)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SS)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SS)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SS)+'</pre>',parse_mode='HTML')
 def ES(update, context):
     new_confirmed_ES=(summary["Countries"][156]["NewConfirmed"])
     total_confirmed_ES=(summary["Countries"][156]["TotalConfirmed"])
@@ -2567,14 +2415,13 @@ def ES(update, context):
     total_deaths_ES=(summary["Countries"][156]["TotalDeaths"])
     new_recovered_ES=(summary["Countries"][156]["NewRecovered"])
     total_recovered_ES=(summary["Countries"][156]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Spain'
-   '\nNew Confirmed : '+str(new_confirmed_ES)+
-   '\nTotal Confirmed : '+str(total_confirmed_ES)+
-   '\nNew Deaths : '+str(new_deaths_ES)+
-   '\nTotal Deaths : '+str(total_deaths_ES)+
-   '\nNew Recovered : '+str(new_recovered_ES)+
-   '\nTotal Recovered : '+str(total_recovered_ES))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Spain</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ES)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ES)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ES)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ES)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ES)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ES)+'</pre>',parse_mode='HTML')
 def LK(update, context):
     new_confirmed_LK=(summary["Countries"][157]["NewConfirmed"])
     total_confirmed_LK=(summary["Countries"][157]["TotalConfirmed"])
@@ -2582,14 +2429,13 @@ def LK(update, context):
     total_deaths_LK=(summary["Countries"][157]["TotalDeaths"])
     new_recovered_LK=(summary["Countries"][157]["NewRecovered"])
     total_recovered_LK=(summary["Countries"][157]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Sri Lanka'
-   '\nNew Confirmed : '+str(new_confirmed_LK)+
-   '\nTotal Confirmed : '+str(total_confirmed_LK)+
-   '\nNew Deaths : '+str(new_deaths_LK)+
-   '\nTotal Deaths : '+str(total_deaths_LK)+
-   '\nNew Recovered : '+str(new_recovered_LK)+
-   '\nTotal Recovered : '+str(total_recovered_LK))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Sri Lanka</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_LK)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_LK)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_LK)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_LK)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_LK)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_LK)+'</pre>',parse_mode='HTML')
 def SD(update, context):
     new_confirmed_SD=(summary["Countries"][158]["NewConfirmed"])
     total_confirmed_SD=(summary["Countries"][158]["TotalConfirmed"])
@@ -2597,14 +2443,13 @@ def SD(update, context):
     total_deaths_SD=(summary["Countries"][158]["TotalDeaths"])
     new_recovered_SD=(summary["Countries"][158]["NewRecovered"])
     total_recovered_SD=(summary["Countries"][158]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Sudan'
-   '\nNew Confirmed : '+str(new_confirmed_SD)+
-   '\nTotal Confirmed : '+str(total_confirmed_SD)+
-   '\nNew Deaths : '+str(new_deaths_SD)+
-   '\nTotal Deaths : '+str(total_deaths_SD)+
-   '\nNew Recovered : '+str(new_recovered_SD)+
-   '\nTotal Recovered : '+str(total_recovered_SD))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Sudan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SD)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SD)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SD)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SD)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SD)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SD)+'</pre>',parse_mode='HTML')
 def SR(update, context):
     new_confirmed_SR=(summary["Countries"][159]["NewConfirmed"])
     total_confirmed_SR=(summary["Countries"][159]["TotalConfirmed"])
@@ -2612,14 +2457,13 @@ def SR(update, context):
     total_deaths_SR=(summary["Countries"][159]["TotalDeaths"])
     new_recovered_SR=(summary["Countries"][159]["NewRecovered"])
     total_recovered_SR=(summary["Countries"][159]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Suriname'
-   '\nNew Confirmed : '+str(new_confirmed_SR)+
-   '\nTotal Confirmed : '+str(total_confirmed_SR)+
-   '\nNew Deaths : '+str(new_deaths_SR)+
-   '\nTotal Deaths : '+str(total_deaths_SR)+
-   '\nNew Recovered : '+str(new_recovered_SR)+
-   '\nTotal Recovered : '+str(total_recovered_SR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Suriname</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SR)+'</pre>',parse_mode='HTML')
 def SZ(update, context):
     new_confirmed_SZ=(summary["Countries"][160]["NewConfirmed"])
     total_confirmed_SZ=(summary["Countries"][160]["TotalConfirmed"])
@@ -2627,14 +2471,13 @@ def SZ(update, context):
     total_deaths_SZ=(summary["Countries"][160]["TotalDeaths"])
     new_recovered_SZ=(summary["Countries"][160]["NewRecovered"])
     total_recovered_SZ=(summary["Countries"][160]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Swaziland'
-   '\nNew Confirmed : '+str(new_confirmed_SZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_SZ)+
-   '\nNew Deaths : '+str(new_deaths_SZ)+
-   '\nTotal Deaths : '+str(total_deaths_SZ)+
-   '\nNew Recovered : '+str(new_recovered_SZ)+
-   '\nTotal Recovered : '+str(total_recovered_SZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Swaziland</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SZ)+'</pre>',parse_mode='HTML')
 def SE(update, context):
     new_confirmed_SE=(summary["Countries"][161]["NewConfirmed"])
     total_confirmed_SE=(summary["Countries"][161]["TotalConfirmed"])
@@ -2642,14 +2485,13 @@ def SE(update, context):
     total_deaths_SE=(summary["Countries"][161]["TotalDeaths"])
     new_recovered_SE=(summary["Countries"][161]["NewRecovered"])
     total_recovered_SE=(summary["Countries"][161]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Sweden'
-   '\nNew Confirmed : '+str(new_confirmed_SE)+
-   '\nTotal Confirmed : '+str(total_confirmed_SE)+
-   '\nNew Deaths : '+str(new_deaths_SE)+
-   '\nTotal Deaths : '+str(total_deaths_SE)+
-   '\nNew Recovered : '+str(new_recovered_SE)+
-   '\nTotal Recovered : '+str(total_recovered_SE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Sweden</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SE)+'</pre>',parse_mode='HTML')
 def CH(update, context):
     new_confirmed_CH=(summary["Countries"][162]["NewConfirmed"])
     total_confirmed_CH=(summary["Countries"][162]["TotalConfirmed"])
@@ -2657,14 +2499,13 @@ def CH(update, context):
     total_deaths_CH=(summary["Countries"][162]["TotalDeaths"])
     new_recovered_CH=(summary["Countries"][162]["NewRecovered"])
     total_recovered_CH=(summary["Countries"][162]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Switzerland'
-   '\nNew Confirmed : '+str(new_confirmed_CH)+
-   '\nTotal Confirmed : '+str(total_confirmed_CH)+
-   '\nNew Deaths : '+str(new_deaths_CH)+
-   '\nTotal Deaths : '+str(total_deaths_CH)+
-   '\nNew Recovered : '+str(new_recovered_CH)+
-   '\nTotal Recovered : '+str(total_recovered_CH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Switzerland</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_CH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_CH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_CH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_CH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_CH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_CH)+'</pre>',parse_mode='HTML')
 def SY(update, context):
     new_confirmed_SY=(summary["Countries"][163]["NewConfirmed"])
     total_confirmed_SY=(summary["Countries"][163]["TotalConfirmed"])
@@ -2672,14 +2513,13 @@ def SY(update, context):
     total_deaths_SY=(summary["Countries"][163]["TotalDeaths"])
     new_recovered_SY=(summary["Countries"][163]["NewRecovered"])
     total_recovered_SY=(summary["Countries"][163]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Syrian Arab Republic (Syria)'
-   '\nNew Confirmed : '+str(new_confirmed_SY)+
-   '\nTotal Confirmed : '+str(total_confirmed_SY)+
-   '\nNew Deaths : '+str(new_deaths_SY)+
-   '\nTotal Deaths : '+str(total_deaths_SY)+
-   '\nNew Recovered : '+str(new_recovered_SY)+
-   '\nTotal Recovered : '+str(total_recovered_SY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Syrian Arab Republic (Syria)</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_SY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_SY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_SY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_SY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_SY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_SY)+'</pre>',parse_mode='HTML')
 def TW(update, context):
     new_confirmed_TW=(summary["Countries"][164]["NewConfirmed"])
     total_confirmed_TW=(summary["Countries"][164]["TotalConfirmed"])
@@ -2687,14 +2527,13 @@ def TW(update, context):
     total_deaths_TW=(summary["Countries"][164]["TotalDeaths"])
     new_recovered_TW=(summary["Countries"][164]["NewRecovered"])
     total_recovered_TW=(summary["Countries"][164]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Taiwan, Republic of China'
-   '\nNew Confirmed : '+str(new_confirmed_TW)+
-   '\nTotal Confirmed : '+str(total_confirmed_TW)+
-   '\nNew Deaths : '+str(new_deaths_TW)+
-   '\nTotal Deaths : '+str(total_deaths_TW)+
-   '\nNew Recovered : '+str(new_recovered_TW)+
-   '\nTotal Recovered : '+str(total_recovered_TW))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Taiwan, Republic of China</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TW)+'</pre>',parse_mode='HTML')
 def TJ(update, context):
     new_confirmed_TJ=(summary["Countries"][165]["NewConfirmed"])
     total_confirmed_TJ=(summary["Countries"][165]["TotalConfirmed"])
@@ -2702,14 +2541,13 @@ def TJ(update, context):
     total_deaths_TJ=(summary["Countries"][165]["TotalDeaths"])
     new_recovered_TJ=(summary["Countries"][165]["NewRecovered"])
     total_recovered_TJ=(summary["Countries"][165]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Tajikistan'
-   '\nNew Confirmed : '+str(new_confirmed_TJ)+
-   '\nTotal Confirmed : '+str(total_confirmed_TJ)+
-   '\nNew Deaths : '+str(new_deaths_TJ)+
-   '\nTotal Deaths : '+str(total_deaths_TJ)+
-   '\nNew Recovered : '+str(new_recovered_TJ)+
-   '\nTotal Recovered : '+str(total_recovered_TJ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Tajikistan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TJ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TJ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TJ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TJ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TJ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TJ)+'</pre>',parse_mode='HTML')
 def TZ(update, context):
     new_confirmed_TZ=(summary["Countries"][166]["NewConfirmed"])
     total_confirmed_TZ=(summary["Countries"][166]["TotalConfirmed"])
@@ -2717,14 +2555,13 @@ def TZ(update, context):
     total_deaths_TZ=(summary["Countries"][166]["TotalDeaths"])
     new_recovered_TZ=(summary["Countries"][166]["NewRecovered"])
     total_recovered_TZ=(summary["Countries"][166]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Tanzania, United Republic of'
-   '\nNew Confirmed : '+str(new_confirmed_TZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_TZ)+
-   '\nNew Deaths : '+str(new_deaths_TZ)+
-   '\nTotal Deaths : '+str(total_deaths_TZ)+
-   '\nNew Recovered : '+str(new_recovered_TZ)+
-   '\nTotal Recovered : '+str(total_recovered_TZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Tanzania, United Republic of</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TZ)+'</pre>',parse_mode='HTML')
 def TH(update, context):
     new_confirmed_TH=(summary["Countries"][167]["NewConfirmed"])
     total_confirmed_TH=(summary["Countries"][167]["TotalConfirmed"])
@@ -2732,14 +2569,13 @@ def TH(update, context):
     total_deaths_TH=(summary["Countries"][167]["TotalDeaths"])
     new_recovered_TH=(summary["Countries"][167]["NewRecovered"])
     total_recovered_TH=(summary["Countries"][167]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Thailand'
-   '\nNew Confirmed : '+str(new_confirmed_TH)+
-   '\nTotal Confirmed : '+str(total_confirmed_TH)+
-   '\nNew Deaths : '+str(new_deaths_TH)+
-   '\nTotal Deaths : '+str(total_deaths_TH)+
-   '\nNew Recovered : '+str(new_recovered_TH)+
-   '\nTotal Recovered : '+str(total_recovered_TH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Thailand</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TH)+'</pre>',parse_mode='HTML')
 def TL(update, context):
     new_confirmed_TL=(summary["Countries"][168]["NewConfirmed"])
     total_confirmed_TL=(summary["Countries"][168]["TotalConfirmed"])
@@ -2747,14 +2583,13 @@ def TL(update, context):
     total_deaths_TL=(summary["Countries"][168]["TotalDeaths"])
     new_recovered_TL=(summary["Countries"][168]["NewRecovered"])
     total_recovered_TL=(summary["Countries"][168]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Timor-Leste'
-   '\nNew Confirmed : '+str(new_confirmed_TL)+
-   '\nTotal Confirmed : '+str(total_confirmed_TL)+
-   '\nNew Deaths : '+str(new_deaths_TL)+
-   '\nTotal Deaths : '+str(total_deaths_TL)+
-   '\nNew Recovered : '+str(new_recovered_TL)+
-   '\nTotal Recovered : '+str(total_recovered_TL))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Timor-Leste</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TL)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TL)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TL)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TL)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TL)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TL)+'</pre>',parse_mode='HTML')
 def TG(update, context):
     new_confirmed_TG=(summary["Countries"][169]["NewConfirmed"])
     total_confirmed_TG=(summary["Countries"][169]["TotalConfirmed"])
@@ -2762,14 +2597,13 @@ def TG(update, context):
     total_deaths_TG=(summary["Countries"][169]["TotalDeaths"])
     new_recovered_TG=(summary["Countries"][169]["NewRecovered"])
     total_recovered_TG=(summary["Countries"][169]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Togo'
-   '\nNew Confirmed : '+str(new_confirmed_TG)+
-   '\nTotal Confirmed : '+str(total_confirmed_TG)+
-   '\nNew Deaths : '+str(new_deaths_TG)+
-   '\nTotal Deaths : '+str(total_deaths_TG)+
-   '\nNew Recovered : '+str(new_recovered_TG)+
-   '\nTotal Recovered : '+str(total_recovered_TG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Togo</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TG)+'</pre>',parse_mode='HTML')
 def TT(update, context):
     new_confirmed_TT=(summary["Countries"][170]["NewConfirmed"])
     total_confirmed_TT=(summary["Countries"][170]["TotalConfirmed"])
@@ -2777,14 +2611,13 @@ def TT(update, context):
     total_deaths_TT=(summary["Countries"][170]["TotalDeaths"])
     new_recovered_TT=(summary["Countries"][170]["NewRecovered"])
     total_recovered_TT=(summary["Countries"][170]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Trinidad and Tobago'
-   '\nNew Confirmed : '+str(new_confirmed_TT)+
-   '\nTotal Confirmed : '+str(total_confirmed_TT)+
-   '\nNew Deaths : '+str(new_deaths_TT)+
-   '\nTotal Deaths : '+str(total_deaths_TT)+
-   '\nNew Recovered : '+str(new_recovered_TT)+
-   '\nTotal Recovered : '+str(total_recovered_TT))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Trinidad and Tobago</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TT)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TT)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TT)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TT)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TT)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TT)+'</pre>',parse_mode='HTML')
 def TN(update, context):
     new_confirmed_TN=(summary["Countries"][171]["NewConfirmed"])
     total_confirmed_TN=(summary["Countries"][171]["TotalConfirmed"])
@@ -2792,14 +2625,13 @@ def TN(update, context):
     total_deaths_TN=(summary["Countries"][171]["TotalDeaths"])
     new_recovered_TN=(summary["Countries"][171]["NewRecovered"])
     total_recovered_TN=(summary["Countries"][171]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Tunisia'
-   '\nNew Confirmed : '+str(new_confirmed_TN)+
-   '\nTotal Confirmed : '+str(total_confirmed_TN)+
-   '\nNew Deaths : '+str(new_deaths_TN)+
-   '\nTotal Deaths : '+str(total_deaths_TN)+
-   '\nNew Recovered : '+str(new_recovered_TN)+
-   '\nTotal Recovered : '+str(total_recovered_TN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Tunisia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TN)+'</pre>',parse_mode='HTML')
 def TR(update, context):
     new_confirmed_TR=(summary["Countries"][172]["NewConfirmed"])
     total_confirmed_TR=(summary["Countries"][172]["TotalConfirmed"])
@@ -2807,14 +2639,13 @@ def TR(update, context):
     total_deaths_TR=(summary["Countries"][172]["TotalDeaths"])
     new_recovered_TR=(summary["Countries"][172]["NewRecovered"])
     total_recovered_TR=(summary["Countries"][172]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Turkey'
-   '\nNew Confirmed : '+str(new_confirmed_TR)+
-   '\nTotal Confirmed : '+str(total_confirmed_TR)+
-   '\nNew Deaths : '+str(new_deaths_TR)+
-   '\nTotal Deaths : '+str(total_deaths_TR)+
-   '\nNew Recovered : '+str(new_recovered_TR)+
-   '\nTotal Recovered : '+str(total_recovered_TR))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Turkey</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_TR)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_TR)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_TR)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_TR)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_TR)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_TR)+'</pre>',parse_mode='HTML')
 def UG(update, context):
     new_confirmed_UG=(summary["Countries"][173]["NewConfirmed"])
     total_confirmed_UG=(summary["Countries"][173]["TotalConfirmed"])
@@ -2822,14 +2653,13 @@ def UG(update, context):
     total_deaths_UG=(summary["Countries"][173]["TotalDeaths"])
     new_recovered_UG=(summary["Countries"][173]["NewRecovered"])
     total_recovered_UG=(summary["Countries"][173]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Uganda'
-   '\nNew Confirmed : '+str(new_confirmed_UG)+
-   '\nTotal Confirmed : '+str(total_confirmed_UG)+
-   '\nNew Deaths : '+str(new_deaths_UG)+
-   '\nTotal Deaths : '+str(total_deaths_UG)+
-   '\nNew Recovered : '+str(new_recovered_UG)+
-   '\nTotal Recovered : '+str(total_recovered_UG))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Uganda</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_UG)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_UG)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_UG)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_UG)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_UG)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_UG)+'</pre>',parse_mode='HTML')
 def UA(update, context):
     new_confirmed_UA=(summary["Countries"][174]["NewConfirmed"])
     total_confirmed_UA=(summary["Countries"][174]["TotalConfirmed"])
@@ -2837,14 +2667,13 @@ def UA(update, context):
     total_deaths_UA=(summary["Countries"][174]["TotalDeaths"])
     new_recovered_UA=(summary["Countries"][174]["NewRecovered"])
     total_recovered_UA=(summary["Countries"][174]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Ukraine'
-   '\nNew Confirmed : '+str(new_confirmed_UA)+
-   '\nTotal Confirmed : '+str(total_confirmed_UA)+
-   '\nNew Deaths : '+str(new_deaths_UA)+
-   '\nTotal Deaths : '+str(total_deaths_UA)+
-   '\nNew Recovered : '+str(new_recovered_UA)+
-   '\nTotal Recovered : '+str(total_recovered_UA))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Ukraine</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_UA)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_UA)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_UA)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_UA)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_UA)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_UA)+'</pre>',parse_mode='HTML')
 def AE(update, context):
     new_confirmed_AE=(summary["Countries"][175]["NewConfirmed"])
     total_confirmed_AE=(summary["Countries"][175]["TotalConfirmed"])
@@ -2852,14 +2681,13 @@ def AE(update, context):
     total_deaths_AE=(summary["Countries"][175]["TotalDeaths"])
     new_recovered_AE=(summary["Countries"][175]["NewRecovered"])
     total_recovered_AE=(summary["Countries"][175]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': United Arab Emirates'
-   '\nNew Confirmed : '+str(new_confirmed_AE)+
-   '\nTotal Confirmed : '+str(total_confirmed_AE)+
-   '\nNew Deaths : '+str(new_deaths_AE)+
-   '\nTotal Deaths : '+str(total_deaths_AE)+
-   '\nNew Recovered : '+str(new_recovered_AE)+
-   '\nTotal Recovered : '+str(total_recovered_AE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>United Arab Emirates</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AE)+'</pre>',parse_mode='HTML')
 def GB(update, context):
     new_confirmed_GB=(summary["Countries"][176]["NewConfirmed"])
     total_confirmed_GB=(summary["Countries"][176]["TotalConfirmed"])
@@ -2867,14 +2695,13 @@ def GB(update, context):
     total_deaths_GB=(summary["Countries"][176]["TotalDeaths"])
     new_recovered_GB=(summary["Countries"][176]["NewRecovered"])
     total_recovered_GB=(summary["Countries"][176]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': United Kingdom'
-   '\nNew Confirmed : '+str(new_confirmed_GB)+
-   '\nTotal Confirmed : '+str(total_confirmed_GB)+
-   '\nNew Deaths : '+str(new_deaths_GB)+
-   '\nTotal Deaths : '+str(total_deaths_GB)+
-   '\nNew Recovered : '+str(new_recovered_GB)+
-   '\nTotal Recovered : '+str(total_recovered_GB))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>United Kingdom</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_GB)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_GB)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_GB)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_GB)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_GB)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_GB)+'</pre>',parse_mode='HTML')
 def US(update, context):
     new_confirmed_US=(summary["Countries"][177]["NewConfirmed"])
     total_confirmed_US=(summary["Countries"][177]["TotalConfirmed"])
@@ -2882,14 +2709,13 @@ def US(update, context):
     total_deaths_US=(summary["Countries"][177]["TotalDeaths"])
     new_recovered_US=(summary["Countries"][177]["NewRecovered"])
     total_recovered_US=(summary["Countries"][177]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': United States of America'
-   '\nNew Confirmed : '+str(new_confirmed_US)+
-   '\nTotal Confirmed : '+str(total_confirmed_US)+
-   '\nNew Deaths : '+str(new_deaths_US)+
-   '\nTotal Deaths : '+str(total_deaths_US)+
-   '\nNew Recovered : '+str(new_recovered_US)+
-   '\nTotal Recovered : '+str(total_recovered_US))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>United States of America</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_US)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_US)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_US)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_US)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_US)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_US)+'</pre>',parse_mode='HTML')
 def UY(update, context):
     new_confirmed_UY=(summary["Countries"][178]["NewConfirmed"])
     total_confirmed_UY=(summary["Countries"][178]["TotalConfirmed"])
@@ -2897,14 +2723,13 @@ def UY(update, context):
     total_deaths_UY=(summary["Countries"][178]["TotalDeaths"])
     new_recovered_UY=(summary["Countries"][178]["NewRecovered"])
     total_recovered_UY=(summary["Countries"][178]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Uruguay'
-   '\nNew Confirmed : '+str(new_confirmed_UY)+
-   '\nTotal Confirmed : '+str(total_confirmed_UY)+
-   '\nNew Deaths : '+str(new_deaths_UY)+
-   '\nTotal Deaths : '+str(total_deaths_UY)+
-   '\nNew Recovered : '+str(new_recovered_UY)+
-   '\nTotal Recovered : '+str(total_recovered_UY))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Uruguay</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_UY)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_UY)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_UY)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_UY)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_UY)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_UY)+'</pre>',parse_mode='HTML')
 def UZ(update, context):
     new_confirmed_UZ=(summary["Countries"][179]["NewConfirmed"])
     total_confirmed_UZ=(summary["Countries"][179]["TotalConfirmed"])
@@ -2912,14 +2737,13 @@ def UZ(update, context):
     total_deaths_UZ=(summary["Countries"][179]["TotalDeaths"])
     new_recovered_UZ=(summary["Countries"][179]["NewRecovered"])
     total_recovered_UZ=(summary["Countries"][179]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Uzbekistan'
-   '\nNew Confirmed : '+str(new_confirmed_UZ)+
-   '\nTotal Confirmed : '+str(total_confirmed_UZ)+
-   '\nNew Deaths : '+str(new_deaths_UZ)+
-   '\nTotal Deaths : '+str(total_deaths_UZ)+
-   '\nNew Recovered : '+str(new_recovered_UZ)+
-   '\nTotal Recovered : '+str(total_recovered_UZ))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Uzbekistan</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_UZ)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_UZ)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_UZ)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_UZ)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_UZ)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_UZ)+'</pre>',parse_mode='HTML')
 def VE(update, context):
     new_confirmed_VE=(summary["Countries"][180]["NewConfirmed"])
     total_confirmed_VE=(summary["Countries"][180]["TotalConfirmed"])
@@ -2927,14 +2751,13 @@ def VE(update, context):
     total_deaths_VE=(summary["Countries"][180]["TotalDeaths"])
     new_recovered_VE=(summary["Countries"][180]["NewRecovered"])
     total_recovered_VE=(summary["Countries"][180]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Venezuela (Bolivarian Republic)'
-   '\nNew Confirmed : '+str(new_confirmed_VE)+
-   '\nTotal Confirmed : '+str(total_confirmed_VE)+
-   '\nNew Deaths : '+str(new_deaths_VE)+
-   '\nTotal Deaths : '+str(total_deaths_VE)+
-   '\nNew Recovered : '+str(new_recovered_VE)+
-   '\nTotal Recovered : '+str(total_recovered_VE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Venezuela (Bolivarian Republic)</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_VE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_VE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_VE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_VE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_VE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_VE)+'</pre>',parse_mode='HTML')
 def VN(update, context):
     new_confirmed_VN=(summary["Countries"][181]["NewConfirmed"])
     total_confirmed_VN=(summary["Countries"][181]["TotalConfirmed"])
@@ -2942,14 +2765,13 @@ def VN(update, context):
     total_deaths_VN=(summary["Countries"][181]["TotalDeaths"])
     new_recovered_VN=(summary["Countries"][181]["NewRecovered"])
     total_recovered_VN=(summary["Countries"][181]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Viet Nam'
-   '\nNew Confirmed : '+str(new_confirmed_VN)+
-   '\nTotal Confirmed : '+str(total_confirmed_VN)+
-   '\nNew Deaths : '+str(new_deaths_VN)+
-   '\nTotal Deaths : '+str(total_deaths_VN)+
-   '\nNew Recovered : '+str(new_recovered_VN)+
-   '\nTotal Recovered : '+str(total_recovered_VN))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Viet Nam</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_VN)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_VN)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_VN)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_VN)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_VN)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_VN)+'</pre>',parse_mode='HTML')
 def EH(update, context):
     new_confirmed_EH=(summary["Countries"][182]["NewConfirmed"])
     total_confirmed_EH=(summary["Countries"][182]["TotalConfirmed"])
@@ -2957,14 +2779,13 @@ def EH(update, context):
     total_deaths_EH=(summary["Countries"][182]["TotalDeaths"])
     new_recovered_EH=(summary["Countries"][182]["NewRecovered"])
     total_recovered_EH=(summary["Countries"][182]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Western Sahara'
-   '\nNew Confirmed : '+str(new_confirmed_EH)+
-   '\nTotal Confirmed : '+str(total_confirmed_EH)+
-   '\nNew Deaths : '+str(new_deaths_EH)+
-   '\nTotal Deaths : '+str(total_deaths_EH)+
-   '\nNew Recovered : '+str(new_recovered_EH)+
-   '\nTotal Recovered : '+str(total_recovered_EH))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Western Sahara</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_EH)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_EH)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_EH)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_EH)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_EH)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_EH)+'</pre>',parse_mode='HTML')
 def YE(update, context):
     new_confirmed_YE=(summary["Countries"][183]["NewConfirmed"])
     total_confirmed_YE=(summary["Countries"][183]["TotalConfirmed"])
@@ -2972,14 +2793,13 @@ def YE(update, context):
     total_deaths_YE=(summary["Countries"][183]["TotalDeaths"])
     new_recovered_YE=(summary["Countries"][183]["NewRecovered"])
     total_recovered_YE=(summary["Countries"][183]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Yemen'
-   '\nNew Confirmed : '+str(new_confirmed_YE)+
-   '\nTotal Confirmed : '+str(total_confirmed_YE)+
-   '\nNew Deaths : '+str(new_deaths_YE)+
-   '\nTotal Deaths : '+str(total_deaths_YE)+
-   '\nNew Recovered : '+str(new_recovered_YE)+
-   '\nTotal Recovered : '+str(total_recovered_YE))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Yemen</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_YE)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_YE)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_YE)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_YE)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_YE)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_YE)+'</pre>',parse_mode='HTML')
 def ZM(update, context):
     new_confirmed_ZM=(summary["Countries"][184]["NewConfirmed"])
     total_confirmed_ZM=(summary["Countries"][184]["TotalConfirmed"])
@@ -2987,14 +2807,13 @@ def ZM(update, context):
     total_deaths_ZM=(summary["Countries"][184]["TotalDeaths"])
     new_recovered_ZM=(summary["Countries"][184]["NewRecovered"])
     total_recovered_ZM=(summary["Countries"][184]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Zambia'
-   '\nNew Confirmed : '+str(new_confirmed_ZM)+
-   '\nTotal Confirmed : '+str(total_confirmed_ZM)+
-   '\nNew Deaths : '+str(new_deaths_ZM)+
-   '\nTotal Deaths : '+str(total_deaths_ZM)+
-   '\nNew Recovered : '+str(new_recovered_ZM)+
-   '\nTotal Recovered : '+str(total_recovered_ZM))
-
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Zambia</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ZM)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ZM)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ZM)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ZM)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ZM)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ZM)+'</pre>',parse_mode='HTML')
 def ZW(update, context):
     new_confirmed_ZW=(summary["Countries"][185]["NewConfirmed"])
     total_confirmed_ZW=(summary["Countries"][185]["TotalConfirmed"])
@@ -3002,13 +2821,14 @@ def ZW(update, context):
     total_deaths_ZW=(summary["Countries"][185]["TotalDeaths"])
     new_recovered_ZW=(summary["Countries"][185]["NewRecovered"])
     total_recovered_ZW=(summary["Countries"][185]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Zimbabwe'
-   '\nNew Confirmed : '+str(new_confirmed_ZW)+
-   '\nTotal Confirmed : '+str(total_confirmed_ZW)+
-   '\nNew Deaths : '+str(new_deaths_ZW)+
-   '\nTotal Deaths : '+str(total_deaths_ZW)+
-   '\nNew Recovered : '+str(new_recovered_ZW)+
-   '\nTotal Recovered : '+str(total_recovered_ZW))
+    update.message.reply_text('<b>Corona Statistics:</b><pre>Zimbabwe</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_ZW)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_ZW)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_ZW)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_ZW)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_ZW)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_ZW)+'</pre>',parse_mode='HTML')
+
 
 def help(update, context):
     update.message.reply_text("Hi! , I\'m Corona Chan!\nSo what I basically do is, I give you\nCorona Statistics.\nTo know Global Stats do /global\nTo know the stats of a specific country, do /<country code>\nWondering where to find country codes?\nDon\'t Worry! We got you covered .\nSimply do /countrycodes\nA message with all country codes will pop up.\nUse those country codes to gt the statistics of a country .\nI hope you guys will enjoy this Bot.\nArigatou!") 
