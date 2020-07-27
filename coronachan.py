@@ -1,5 +1,6 @@
 from telegram.ext import Updater,CommandHandler,MessageHandler
 from telegram import InlineKeyboardButton,InlineKeyboardMarkup
+import telegram
 import requests
 import os
 
@@ -220,19 +221,19 @@ def countrycode(update,context):
                                 '\nZW-Zimbabwe')
     
 def AF(update, context):
-    new_confirmed_AF=(summary["Countries"][0]["NewConfirmed"])    
+    new_confirmed_AF=(summary["Countries"][0]["NewConfirmed"])
     total_confirmed_AF=(summary["Countries"][0]["TotalConfirmed"])
     new_deaths_AF=(summary["Countries"][0]["NewDeaths"])
-    total_deaths_AF=(summary["Countries"][0]["TotalDeaths"])      
-    new_recovered_AF=(summary["Countries"][0]["NewRecovered"])    
+    total_deaths_AF=(summary["Countries"][0]["TotalDeaths"])
+    new_recovered_AF=(summary["Countries"][0]["NewRecovered"])
     total_recovered_AF=(summary["Countries"][0]["TotalRecovered"])
-    update.message.reply_text('Corona Statistics' ': Afghanistan'
-   '\nNew Confirmed : '+str(new_confirmed_AF)+
-   '\nTotal Confirmed : '+str(total_confirmed_AF)+
-   '\nNew Deaths : '+str(new_deaths_AF)+
-   '\nTotal Deaths : '+str(total_deaths_AF)+
-   '\nNew Recovered : '+str(new_recovered_AF)+
-   '\nTotal Recovered : '+str(total_recovered_AF))
+    update.message.reply_text('<b>Corona Statistics:</b><pre> Afghanistan</prev>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confired_AF)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_comnfirmed_AF)+'</pre>'
+   '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AF)+'</pre>'
+   '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AF)+'</pre>'
+   '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AF)+'</pre>'
+   '\n<b>Total Recovered :</b> ''<pre>'+str(total_recovered_AF)+'</pre>',parse_mode='HTML')
 
 def AL(update, context):
     new_confirmed_AL=(summary["Countries"][1]["NewConfirmed"])
