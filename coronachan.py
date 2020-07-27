@@ -228,8 +228,8 @@ def AF(update, context):
     new_recovered_AF=(summary["Countries"][0]["NewRecovered"])
     total_recovered_AF=(summary["Countries"][0]["TotalRecovered"])
     update.message.reply_text('<b>Corona Statistics:</b><pre> Afghanistan</prev>'
-   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confired_AF)+'</pre>'
-   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_comnfirmed_AF)+'</pre>'
+   '\n<b>New Confirmed :</b> ''<pre>'+str(new_confirmed_AF)+'</pre>'
+   '\n<b>Total Confirmed :</b> ''<pre>'+str(total_confirmed_AF)+'</pre>'
    '\n<b>New Deaths :</b> ''<pre>'+str(new_deaths_AF)+'</pre>'
    '\n<b>Total Deaths :</b> ''<pre>'+str(total_deaths_AF)+'</pre>'
    '\n<b>New Recovered :</b> ''<pre>'+str(new_recovered_AF)+'</pre>'
