@@ -1,1 +1,1 @@
-worker: python3 coronachan.py
+worker: python3 bot.py
