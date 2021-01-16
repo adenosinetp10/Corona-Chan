@@ -1,7 +1,7 @@
 START = "<pre>Konnichiwa</pre> <b>{}</b> <pre>san!\nPress</pre> /help <pre>to see more info.</pre>"
 HAPPY_FACE = '😄'
 COUNTRY_NOT_FOUND = "<pre>Country not found or doesn't have any cases.</pre>"
-LEN_ZERO = "<pre>Please enter a country name.\ne.g. /s china</pre>"
+LEN_ZERO = "<pre>Please enter a country name.\ne.g. /search china</pre>"
 COUNTRY_DATA = ("<b>Country :</b> <pre>{}</pre>\n"
                 "<b>Country Code :</b> <pre>{}</pre>\n"
                 "<b>Cases :</b> <pre>{}</pre>\n"
