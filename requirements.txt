@@ -1,2 +1,2 @@
-requests
+country-list
 python-telegram-bot
