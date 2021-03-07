@@ -288,5 +288,4 @@ HELP = ("<pre>Konnichiwa!</pre> <b>{}</b> <pre>san!\nI'm</pre> <b>Corona Chan.</
         "<pre>/search [Country Name]  -  Search for a specific country</pre>\n"
         "<pre>/list - shows a list of all the countries.</pre>\n"
         "<pre>/global  -  get the overall corona stats of Earth.</pre>\n"
-        "<pre>/help  -  you'll see this.</pre>\n\n\n\n"
-        "<pre>Waifu of</pre> @ATPnull.")
+        "<pre>/help  -  you'll see this.</pre>")
